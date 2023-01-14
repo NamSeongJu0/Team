@@ -12,32 +12,37 @@ $(function() {
 
 
 //  마우스 포인터 효과
+const cursor = document.querySelector(".cursor");
+const contentEm = document.querySelectorAll("header");
+// const infoLi = document.querySelectorAll(".info.bottom li");
 
 // 움직임 효과
-$(document).mousemove(function(e){
-    gsap.to(".cursor", {duration: 0.4, left: e.pageX, top: e.pageY})
-});
-
-// 오버 효과
-$(".contents em").hover(function(){
-    $(".cursor").addClass("active");
-}, function(){
-    $(".cursor").removeClass("active");
-});
-
-// 출력용
-$(".info.bottom li").click(function(){
-
-    const text = $(this).text();
+$(function() {
+    $(document).mousemove(function(e){
+        gsap.to(".cursor", {duration: 0.4, left: e.pageX, top: e.pageY});
+    });
     
-    $(".info.bottom li").removeClass("active");
-    $(this).addClass("active");
-    $(".cursor").css("mix-blend-mode", text);
-});
-
-// 제목에 마우스 오버 했을 때
-$(".info.left").hover(function(){
-    $(".cursor").addClass("active2");
-}, function(){
-    $(".cursor").removeClass("active2");
+    // 오버 효과
+    $(".nav .navL .navL_M > li:first-child").hover(function(){
+        $(".cursor").addClass("active");
+    }, function(){
+        $(".cursor").removeClass("active");
+    });
+    
+    // 출력용
+    // $(".info.bottom li").click(function(){
+    
+    //     const text = $(this).text();
+        
+    //     $(".info.bottom li").removeClass("active");
+    //     $(this).addClass("active");
+    //     $(".cursor").css("mix-blend-mode", text);
+    // });
+    
+    // 제목에 마우스 오버 했을 때
+    $(".sns ul").hover(function(){
+        $(this).children().css('color', 'silver');
+    }, function(){
+        $(this).children().css('color', 'white');
+    });
 });
