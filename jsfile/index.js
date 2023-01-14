@@ -40,9 +40,9 @@ $(function() {
     // });
     
     // 제목에 마우스 오버 했을 때
-    $(".sns ul").hover(function(){
-        $(this).children().css('color', 'silver');
+    $(".sns ul li").hover(function(){
+        $(this).children().css({'color': 'silver', 'transition': 'all 0.5s ease-in'});
     }, function(){
-        $(this).children().css('color', 'white');
+        $(this).children().css({'color': 'white', 'transition': 'all 0.5s ease-in'});
     });
 });
