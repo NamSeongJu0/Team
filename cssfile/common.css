@@ -6,8 +6,7 @@
 }
 
 body {
-    background-color: greenyellow;
-    cursor: none;
+    background-color: darkkhaki;
 }
 
 ul,li,ol {
@@ -53,6 +52,7 @@ header {
     background-color: rgba(0, 0, 0, 0) !important;
     backdrop-filter: blur(4px);
     z-index: 5;
+    cursor: none;
 }
 
 
@@ -128,7 +128,8 @@ header .logo .logo_2 {
 .nav .navL .navL_M li {
     box-sizing: border-box;
     background-color: #333;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #fff;
 }
 
 .nav .navL .navL_M > li:first-child,
@@ -156,6 +157,8 @@ header .logo .logo_2 {
     background-color: #fff;
 }
 
+
+/* activities before */
 .nav .navL .navL_M > li:nth-of-type(2) > a::before {
     content: "";
     position: absolute;
@@ -167,6 +170,8 @@ header .logo .logo_2 {
     background-color: #fff;
 }
 
+
+/* picup before */
 .nav .navL .navL_M > li:last-child > a::before {
     content: "";
     position: absolute;
@@ -197,6 +202,8 @@ header .logo .logo_2 {
     background-color: #fff;
 }
 
+
+/* activites after */
 .nav .navL .navL_M > li:nth-of-type(2) > a::after {
     content: "";
     position: absolute;
@@ -206,8 +213,11 @@ header .logo .logo_2 {
     height: 1px;
     bottom: 0;
     background-color: #fff;
+    opacity: 0;
 }
 
+
+/* picup after */
 .nav .navL .navL_M > li:last-child > a::after {
     content: "";
     position: absolute;
@@ -217,24 +227,48 @@ header .logo .logo_2 {
     height: 1px;
     bottom: 0;
     background-color: #fff;
+    opacity: 0;
 }
 
 .nav .navL .navL_M li:first-child i,
 .nav .navL .navL_M li:nth-of-type(2) i {
     padding-left: 15px;
+    font-size: 15px;
+    transform: translateY(-17%);
 }
 
 
 /* 네비 ul 서브 */
 .nav .navL .navL_M .navL_S {
+    width: 230px;
     position: absolute;
     top: 37px;
     background-color: blue;
     box-sizing: border-box;
-    padding: 5px;
-    text-align: center;
+    text-align: left;
+    backdrop-filter: blur(4px);
+    text-transform: none;
 }
 
+.nav .navL .navL_M .navL_S li {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.nav .navL .navL_M .navL_S li:hover {
+    text-decoration: underline;
+}
+
+.nav .navL .navL_M .navL_S li:last-child {
+    border-bottom: none;
+}
+
+.nav .navL .navL_M .navL_S li a {
+    color: gold;
+}
+
+
+/* 네비 오른쪽 ul */
 .nav .navR {
     width: 50%;
     height: auto;
@@ -255,7 +289,7 @@ header .logo .logo_2 {
 .nav .navR .navR_M li {
     box-sizing: border-box;
     background-color: #333;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
 }
 
@@ -364,12 +398,20 @@ footer .nav_R .navL .navL_M {
 footer .nav_R .navL .navL_M li {
     box-sizing: border-box;
     background-color: #333;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #fff;
 }
 
 footer .nav_R .navL .navL_M > li:first-child,
 footer .nav_R .navL .navL_M > li:nth-of-type(2) {
     margin-right: 15px;
+}
+
+footer .nav_R .navL .navL_M > li:first-child a i,
+footer .nav_R .navL .navL_M > li:nth-of-type(2) a i {
+    padding-left: 15px;
+    font-size: 15px;
+    transform: translateY(-17%);
 }
 
 footer .nav_R .navL .navL_M > li:first-child,
@@ -467,13 +509,32 @@ footer .nav_R .navL .navL_M li:nth-of-type(2) i {
 
 /* 네비 ul 서브 */
 footer .nav_R .navL .navL_M .navL_S {
+    width: 230px;
     position: absolute;
     bottom: 37px;
-    right: 0;
+    left: 0;
     background-color: blue;
     box-sizing: border-box;
+    text-align: left;
+    backdrop-filter: blur(4px);
+    text-transform: none;
+}
+
+footer .nav_R .navL .navL_M .navL_S li {
+    box-sizing: border-box;
     padding: 5px;
-    text-align: center;
+}
+
+footer .nav_R .navL .navL_M .navL_S li:hover {
+    text-decoration: underline;
+}
+
+footer .nav_R .navL .navL_M .navL_S li:last-child {
+    border-bottom: none;
+}
+
+footer .nav_R .navL .navL_M .navL_S li a {
+    color: gold;
 }
 
 footer .nav_R .navR {
@@ -496,7 +557,7 @@ footer .nav_R .navR_M {
 footer .nav_R .navR .navR_M li {
     box-sizing: border-box;
     background-color: #333;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
 }
 
