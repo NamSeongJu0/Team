@@ -168,6 +168,7 @@ header .logo .logo_2 {
     height: 1px;
     bottom: 0;
     background-color: #fff;
+    transition: all 1.5s ease-in-out;
 }
 
 
@@ -479,6 +480,8 @@ footer .nav_R .navL .navL_M > li:first-child > a::after {
     background-color: #fff;
 }
 
+
+/* activities after */
 footer .nav_R .navL .navL_M > li:nth-of-type(2) > a::after {
     content: "";
     position: absolute;
@@ -490,6 +493,8 @@ footer .nav_R .navL .navL_M > li:nth-of-type(2) > a::after {
     background-color: #fff;
 }
 
+
+/* picup after */
 footer .nav_R .navL .navL_M > li:last-child > a::after {
     content: "";
     position: absolute;
