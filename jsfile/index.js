@@ -1,3 +1,21 @@
+// header active 효과
+$(function() {
+    $(window).resize(function(){
+        if(window.innerWidth > 1099){
+           $('.spMenu_btn').hide();
+           $('.nav, .nav_R .navL').show();
+           $('.logo').css('margin','0 auto');
+        }
+        else{
+            $('.spMenu_btn').show();
+            $('.nav, .nav_R .navL').hide();
+        }
+       });
+})
+
+
+
+
 // product, activities 슬라이드 효과
 
 $(function() {
