@@ -4,11 +4,12 @@ $(function() {
         if(window.innerWidth > 1099){
            $('.spMenu_btn').hide();
            $('.nav, .nav_R .navL').show();
-           $('.logo').css('margin','0 auto');
+        //    $('header .logo').addClass('on');
         }
         else{
             $('.spMenu_btn').show();
             $('.nav, .nav_R .navL').hide();
+            // $('header .logo').removeClass('on');
         }
        });
 })
