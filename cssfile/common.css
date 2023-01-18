@@ -136,17 +136,21 @@ header .container {
 
 
 /* 로고 이미지 */
-header .logo {
+/* header .logo {
     width: 120px;
     height: 40px;
     position: relative;
+} */
+
+header a {
+    line-height: 40px;
 }
 
-header .logo.on {
+header .logo_1.on {
     margin: 0 auto;
 }
 
-header .logo .logo_1 > a::before {
+header .logo_1 > a::before {
     background-image: url("../header/logo.png");
     opacity: 1;
     content: "";
@@ -160,7 +164,7 @@ header .logo .logo_1 > a::before {
     background-size: 100% auto;
 }
 
-header .logo .logo_1 > a::after {
+header .logo_1 > a::after {
     background-image: url("../header/logo1.png");
     opacity: 0;
     content: "";
@@ -174,23 +178,17 @@ header .logo .logo_1 > a::after {
     background-size: 100% auto;
 }
 
-header .logo .logo_1 {
-    width: 100%;
+header .logo_1 {
+    width: 120px;
     height: 40px;
-    color: white;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    position: relative;
+    background-color: wheat;
 }
 
 
-header .logo .logo_1 a {
+header .logo_1 a {
     width: 100%;
     height: 100%;
-}
-
-header a {
-    line-height: 40px;
 }
 
 
@@ -267,7 +265,6 @@ header a {
     height: 1px;
     bottom: 0;
     background-color: #fff;
-    transition: all 1.5s ease-in-out;
 }
 
 
@@ -300,6 +297,24 @@ header a {
     height: 1px;
     bottom: 0;
     background-color: #fff;
+}
+
+.nav .navL .navL_M>li:first-child>a::after:hover {
+    animation: graph 1.5s ease-in-out;
+}
+
+@keyframes graph {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.nav .navL .navL_M>li:first-child>a::after:hover {
+    
 }
 
 
@@ -342,7 +357,7 @@ header a {
 .nav .navL .navL_M .navL_S {
     width: 230px;
     position: absolute;
-    top: 37px;
+    top: 50px;
     background-color: blue;
     box-sizing: border-box;
     text-align: left;

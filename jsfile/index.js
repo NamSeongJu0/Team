@@ -4,12 +4,12 @@ $(function() {
         if(window.innerWidth > 1099){
            $('.spMenu_btn').hide();
            $('.nav, .nav_R .navL').show();
-        //    $('header .logo').addClass('on');
+        //    $('header container .logo_1').addClass('on');
         }
         else{
             $('.spMenu_btn').show();
             $('.nav, .nav_R .navL').hide();
-            // $('header .logo').removeClass('on');
+            // $('header container .logo_1').removeClass('on');
         }
        });
 })
@@ -20,7 +20,7 @@ $(function() {
 // product, activities 슬라이드 효과
 
 $(function() {
-    $('.navL_M > li:first-child > .navL_S, .navL_M > li:nth-of-type(2) > .navL_S').hide();
+    // $('.navL_M > li:first-child > .navL_S, .navL_M > li:nth-of-type(2) > .navL_S').hide();
 
     $('.navL_M > li:first-child, .navL_M > li:nth-of-type(2)').hover(function(){
         $(this).children('.navL_S').stop().fadeIn(200);
