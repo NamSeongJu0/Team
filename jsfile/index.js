@@ -12,15 +12,39 @@ $(function() {
             // $('header container .logo_1').removeClass('on');
         }
        });
-})
+});
 
 
+// 이미지 전환
+$(function () {
+    $('.prev').click(function () {
+
+        $('.slide li:last').prependTo('.slide');
+
+        $('.slide').css('margin-left', -1000);
+
+        $('.slide').stop().animate({ marginLeft: 0 }, 800);
+
+    });
+
+    $('.next').click(function () {
+
+        $('.slide').stop().animate({ marginLeft: -1000 }, 800, function () {
+
+            $('.slide li:first').appendTo('.slide');
+
+            $('.slide').css({ marginLeft: 0 });
+
+        });
+
+    });
+});
 
 
 // product, activities 슬라이드 효과
 
 $(function() {
-    // $('.navL_M > li:first-child > .navL_S, .navL_M > li:nth-of-type(2) > .navL_S').hide();
+    $('.navL_M > li:first-child > .navL_S, .navL_M > li:nth-of-type(2) > .navL_S').hide();
 
     $('.navL_M > li:first-child, .navL_M > li:nth-of-type(2)').hover(function(){
         $(this).children('.navL_S').stop().fadeIn(200);
