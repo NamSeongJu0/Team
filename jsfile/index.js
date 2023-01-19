@@ -17,27 +17,45 @@ $(function() {
 
 // 이미지 전환
 $(function () {
-    $('.prev').click(function () {
+    function prev(){
 
-        $('.slide li:last').prependTo('.slide');
+        $('#slidewrap .slide li:last').prependTo('#slidewrap .slide');
+        
+        $('#slidewrap .slide').css('margin-left', -1000); // $('.slide').css({marginLeft:-1000}); 
+        
+        $('#slidewrap .slide').stop().animate({marginLeft: 0},800);
+        
+        }
 
-        $('.slide').css('margin-left', -1000);
+        function next(){
+        
+        $('#slidewrap .slide').stop().animate({marginLeft: -1000},800, function(){
+        
+        $('#slidewrap .slide li:first').appendTo('#slidewrap .slide');
+        
+        $('#slidewrap .slide').css({marginLeft: 0});
+        
+        });
+        
+        }
 
-        $('.slide').stop().animate({ marginLeft: 0 }, 800);
+        setInterval(next, 3000); //자동슬라이드
 
-    });
-
-    $('.next').click(function () {
-
-        $('.slide').stop().animate({ marginLeft: -1000 }, 800, function () {
-
-            $('.slide li:first').appendTo('.slide');
-
-            $('.slide').css({ marginLeft: 0 });
-
+        
+        //버튼 슬라이드
+        
+        $('.prev').click(function(){
+        
+        prev();
+        
         });
 
-    });
+        
+        $('.next').click(function(){
+        
+        next();
+        
+        });
 });
 
 

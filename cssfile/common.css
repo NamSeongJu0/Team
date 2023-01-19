@@ -47,7 +47,7 @@ a {
 
 /* 헤더 시작 */
 header {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     height: 100px;
@@ -129,14 +129,6 @@ header .container {
 .spMenu_btn>ul>li::after {
     transform: translateX(-100%);
 }
-
-
-/* 로고 이미지 */
-/* header .logo {
-    width: 120px;
-    height: 40px;
-    position: relative;
-} */
 
 header a {
     line-height: 40px;
