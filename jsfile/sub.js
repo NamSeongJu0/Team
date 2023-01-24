@@ -21,7 +21,7 @@ $(function () {
 
         $('#slidewrap .slide li:last').prependTo('#slidewrap .slide');
         
-        $('#slidewrap .slide').css('margin-left', -1200); // $('.slide').css({marginLeft:-1000}); 
+        $('#slidewrap .slide').css('margin-left', 1100); // $('.slide').css({marginLeft:-1000}); 
         
         $('#slidewrap .slide').stop().animate({marginLeft: 0},800);
         
@@ -29,7 +29,7 @@ $(function () {
 
         function next(){
         
-        $('#slidewrap .slide').stop().animate({marginLeft: -1200},800, function(){
+        $('#slidewrap .slide').stop().animate({marginLeft: -1100},800, function(){
         
         $('#slidewrap .slide li:first').appendTo('#slidewrap .slide');
         

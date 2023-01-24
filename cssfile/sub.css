@@ -22,12 +22,14 @@
     display: flex;
 }
 
+
+/* 섹션 왼쪽 */
 #section .container #contents_M .section_L {
     width: 25%;
     height: auto;
     background-color: chartreuse;
     box-sizing: border-box;
-    padding: 0 10px;
+    padding: 0 15px;
     text-align: center;
 }
 
@@ -77,20 +79,37 @@
 }
 
 
+/* 왼쪽 p 설명 */
+.section_L .intro {
+    width: 100%;
+    height: auto;
+    background-color: slateblue;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 14px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+
 /* 왼쪽 슬라이드 slide1 */
 #section .section_L .slide1 {
     width: 100%;
     height: 250px;
-    background-color: antiquewhite;
+    background-color: darkred;
+    margin-bottom: 20px;
 }
 
 #section .section_L .slide1 ul {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-
+    box-sizing: border-box;
+    padding: 30px;
+    font-size: 1rem;
 }
 
 #section .section_L .slide1 ul li {
@@ -98,6 +117,48 @@
 }
 
 
+/* 왼쪽 슬라이드 slide1_1 */
+#section .section_L .slide1_1 {
+    width: 100%;
+    height: 250px;
+    background-color: darkred;
+    margin-bottom: 20px;
+}
+
+#section .section_L .slide1_1 ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 30px;
+    font-size: 1rem;
+}
+
+#section .section_L .slide1_1 ul li {
+    width: 30%;
+}
+
+
+/* 왼쪽 request 부분 */
+#section .section_L .request {
+    width: 100%;
+    height: 150px;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 30px;
+    font-size: 1rem;
+}
+
+#section .section_L i {
+    padding-right: 15px;
+}
 
 
 
@@ -105,6 +166,8 @@
 
 
 
+
+/* 섹션 오른쪽 */
 #section .container #contents_M .section_R {
     width: 75%;
     height: auto;
@@ -113,24 +176,26 @@
     right: 0;
     background-color: chocolate;
     box-sizing: border-box;
+    padding: 0 15px;
 }
+
 
 /* 이미지 전환 슬라이더 */
 #slidewrap {
-    width: 1200px;
-    height: 600px;
+    width: 1100px;
+    height: 500px;
     margin: 50px auto;
     position: relative;
     overflow: hidden;
 }
 
 #slidewrap .slide {
-    width: 3600px;
+    width: 3300px;
 }
 
 #slidewrap .slide li {
-    width: 1200px;
-    height: 600px;
+    width: 1100px;
+    height: 500px;
     float: left;
 }
 
@@ -175,42 +240,42 @@
 #slidewrap .prev {
     left: 0;
     border-radius: 0 10px 10px 0px;
-    padding: 0 8px 0 2px;
+    padding: 12px 8px 0 2px;
 }
 
 #slidewrap .next {
     right: 0;
     border-radius: 10px 0px 0px 10px;
-    padding: 0 2px 0 8px;
+    padding: 12px 2px 0 8px;
 }
 
 
-/* active */
-#active {
+/* Active */
+#Active {
     width: 100%;
     height: auto;
     background-color: blanchedalmond;
 }
 
-#active .active {
+#Active .active {
     width: 100%;
     height: auto;
-    background-color: whitesmoke;
+    background-color: darkgray;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-#active .active h1 {
-    font-size: 2rem;
-    height: 40px;
+#Active .active h1 {
+    font-size: 3rem;
+    height: 55px;
     font-weight: bold;
     color: burlywood;
     text-align: center;
     text-transform: uppercase;
 }
 
-#active .active .img {
+#Active .active .image {
     width: 100%;
     height: 800px;
     display: flex;
@@ -218,9 +283,171 @@
     align-items: center;
     flex-wrap: wrap;
     background-color: aqua;
+    margin-bottom: 30px;
 }
 
-#active .active .img img {
-    width: 300px;
-    height: 350px;
+#Active .active .image .img1 {
+    width: 24%;
+    height: 45%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/camping.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#Active .active .image .img2 {
+    width: 24%;
+    height: 45%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/bird.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#Active .active .image .img3 {
+    width: 24%;
+    height: 45%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Palau_19_Waterfall_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#Active .active .image .img4 {
+    width: 24%;
+    height: 45%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/IMG_1536.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#Active .active .image .img5 {
+    width: 24%;
+    height: 45%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Kayak.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#Active .active .image .img6 {
+    width: 24%;
+    height: 45%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Palau_19_Canoe_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#Active .active .image .img7 {
+    width: 24%;
+    height: 45%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Palau_19_PMA_14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#Active .active .image .img8 {
+    width: 24%;
+    height: 45%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Photo-29-05-2017-1-05-42-AM.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#Active .active .image h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#Active .active .image a {
+    width: 100px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+/* Hotel 부분 */
+#Hotel {
+    width: 100%;
+    height: auto;
+    background-color: cornsilk;
+}
+
+#Hotel .hotel {
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+#Hotel .hotel h1 {
+    font-size: 3rem;
+    height: 55px;
+    font-weight: bold;
+    color: burlywood;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#Hotel .hotel .hotel_1 {
+    width: 100%;
+    height: 800px;
+    background-color: cadetblue;
 }
