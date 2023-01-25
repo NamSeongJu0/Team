@@ -424,6 +424,96 @@
 }
 
 
+/* Active 설명 */
+#Camping {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    margin-bottom: 60px;
+}
+
+#Camping .camping {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Camping .camping .campingimg {
+    width: 45%;
+    height: 600px;
+}
+
+#Camping .camping .campingimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Camping .camping .campingintro {
+    width: 45%;
+    height: 180px;
+    background-color: darkgreen;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#Camping .camping .campingintro h2 {
+    font-size: 1.5rem;
+}
+
+#Camping .camping .campingintro p {
+    font-size: 1rem;
+}
+
+/* bird 부분 */
+#Bird {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    margin-bottom: 60px;
+}
+
+#Bird .bird {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Bird .bird .birdimg {
+    width: 45%;
+    height: 400px;
+}
+
+#Bird .bird .birdimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Bird .bird .birdintro {
+    width: 45%;
+    height: 200px;
+    background-color: darkgreen;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#Bird .bird .birdintro h2 {
+    font-size: 1.5rem;
+}
+
+#Bird .bird .birdintro p {
+    font-size: 1rem;
+}
+
+#Bird .bird .birdintro a {
+    font-size: 1rem;
+    color: lightskyblue;
+}
+
+
 /* Hotel 부분 */
 #Hotel {
     width: 100%;

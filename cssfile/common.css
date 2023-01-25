@@ -426,6 +426,10 @@ header .container .sns ul li {
     font-size: 1.5rem;
 }
 
+header .container .sns ul li i {
+    padding-top: 10px;
+}
+
 header .container .sns ul li:first-child,
 header .container .sns ul li:nth-of-type(2) {
     margin-right: 3%;
