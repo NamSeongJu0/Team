@@ -16,7 +16,7 @@
 
 #section .container #contents_M {
     width: 100%;
-    height: 8000px;
+    height: 12000px;
     background-color: darksalmon;
     position: relative; 
     display: flex;
@@ -796,6 +796,9 @@
     text-transform: uppercase;
 }
 
+
+/* 호텔 이미지 + 설명 */
+/* 호텔 1 */
 #Hotel .hotel .hotel_1 {
     width: 100%;
     height: 900px;
@@ -806,8 +809,6 @@
     flex-wrap: wrap;
 }
 
-
-/* 호텔 이미지 + 설명 */
 .hotel_1 .hotelimg {
     width: 30%;
     height: 45%;
@@ -833,7 +834,7 @@
     width: 100%;
     font-size: 1rem;
     text-align: center;
-    margin-bottom: 15px;
+    margin-top: 25px;
 }
 
 .hotel_1 .hotelintro {
@@ -845,5 +846,213 @@
 }
 
 .hotel_1 .hotelintro p {
+    font-size: 0.9rem;
+}
+
+
+/* 호텔2 */
+#Hotel .hotel .hotel_2 {
+    width: 100%;
+    height: 900px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hotel_2 .hotelimg {
+    width: 30%;
+    height: 45%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.hotel_2 .hotelimg_1 {
+    width: 100%;
+    height: 60%;
+}
+
+.hotel_2 .hotelimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hotel_2 h5 {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.hotel_2 .hotelintro {
+    width: 100%;
+    height: 16%;
+    background-color: cornsilk;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.hotel_2 .hotelintro p {
+    font-size: 0.9rem;
+}
+
+
+/* 호텔3 */
+#Hotel .hotel .hotel_3 {
+    width: 100%;
+    height: 900px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hotel_3 .hotelimg {
+    width: 30%;
+    height: 45%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.hotel_3 .hotelimg_1 {
+    width: 100%;
+    height: 60%;
+}
+
+.hotel_3 .hotelimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hotel_3 h5 {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.hotel_3 .hotelintro {
+    width: 100%;
+    height: 16%;
+    background-color: cornsilk;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.hotel_3 .hotelintro p {
+    font-size: 0.9rem;
+}
+
+
+/* 호텔4 */
+#Hotel .hotel .hotel_4 {
+    width: 100%;
+    height: 900px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hotel_4 .hotelimg {
+    width: 30%;
+    height: 45%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.hotel_4 .hotelimg_1 {
+    width: 100%;
+    height: 60%;
+}
+
+.hotel_4 .hotelimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hotel_4 h5 {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.hotel_4 .hotelintro {
+    width: 100%;
+    height: 16%;
+    background-color: cornsilk;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.hotel_4 .hotelintro p {
+    font-size: 0.9rem;
+}
+
+
+/* 호텔5 */
+#Hotel .hotel .hotel_5 {
+    width: 100%;
+    height: 900px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hotel_5 .hotelimg {
+    width: 30%;
+    height: 45%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.hotel_5 .hotelimg_1 {
+    width: 100%;
+    height: 60%;
+}
+
+.hotel_5 .hotelimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hotel_5 h5 {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.hotel_5 .hotelintro {
+    width: 100%;
+    height: 16%;
+    background-color: cornsilk;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.hotel_5 .hotelintro p {
     font-size: 0.9rem;
 }
