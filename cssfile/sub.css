@@ -88,6 +88,7 @@
     box-sizing: border-box;
     padding: 14px;
     font-size: 1rem;
+    text-align: left;
     margin-bottom: 20px;
 }
 
@@ -254,7 +255,6 @@
 #Active {
     width: 100%;
     height: auto;
-    background-color: blanchedalmond;
 }
 
 #Active .active {
@@ -283,7 +283,7 @@
     align-items: center;
     flex-wrap: wrap;
     background-color: aqua;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 #Active .active .image .img1 {
@@ -414,7 +414,7 @@
 }
 
 #Active .active .image a {
-    width: 100px;
+    width: 50%;
     border: 1px solid white;
     text-align: center;
     font-size: 1rem;
@@ -452,19 +452,20 @@
 
 #Camping .camping .campingintro {
     width: 45%;
-    height: 180px;
+    height: 30%;
     background-color: darkgreen;
     box-sizing: border-box;
     padding: 10px;
 }
 
 #Camping .camping .campingintro h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 #Camping .camping .campingintro p {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
+
 
 /* bird 부분 */
 #Bird {
@@ -494,23 +495,282 @@
 
 #Bird .bird .birdintro {
     width: 45%;
-    height: 200px;
+    height: 20%;
     background-color: darkgreen;
     box-sizing: border-box;
     padding: 10px;
 }
 
 #Bird .bird .birdintro h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 #Bird .bird .birdintro p {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 #Bird .bird .birdintro a {
-    font-size: 1rem;
+    font-size: 0.85rem;
     color: lightskyblue;
+}
+
+
+/* Waterfall */
+#Waterfall {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    margin-bottom: 60px;
+}
+
+#Waterfall .waterfall {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Waterfall .waterfall .waterfallimg {
+    width: 45%;
+    height: 500px;
+}
+
+#Waterfall .waterfall .waterfallimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Waterfall .waterfall .waterfallintro {
+    width: 45%;
+    height: 30%;
+    background-color: darkgreen;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#Waterfall .waterfall .waterfallintro h2 {
+    font-size: 1.7rem;
+}
+
+#Waterfall .waterfall .waterfallintro p {
+    font-size: 1.2rem;
+}
+
+
+/* Nature */
+#Nature {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    margin-bottom: 60px;
+}
+
+#Nature .nature {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Nature .nature .natureimg {
+    width: 45%;
+    height: 600px;
+}
+
+#Nature .nature .natureimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Nature .nature .natureintro {
+    width: 45%;
+    height: 30%;
+    background-color: darkgreen;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#Nature .nature .natureintro h2 {
+    font-size: 1.7rem;
+}
+
+#Nature .nature .natureintro p {
+    font-size: 1.2rem;
+}
+
+
+/* Kayak */
+#Kayaking {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    margin-bottom: 60px;
+}
+
+#Kayaking .kayaking {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Kayaking .kayaking .kayakingimg {
+    width: 45%;
+    height: 600px;
+}
+
+#Kayaking .kayaking .kayakingimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Kayaking .kayaking .kayakingintro {
+    width: 45%;
+    height: 40%;
+    background-color: darkgreen;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#Kayaking .kayaking .kayakingintro h2 {
+    font-size: 1.7rem;
+}
+
+#Kayaking .kayaking .kayakingintro p {
+    font-size: 1.2rem;
+}
+
+
+/* Sailing */
+#Sailing {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    margin-bottom: 60px;
+}
+
+#Sailing .sailing {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Sailing .sailing .sailingimg {
+    width: 45%;
+    height: 600px;
+}
+
+#Sailing .sailing .sailingimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Sailing .sailing .sailingintro {
+    width: 45%;
+    height: 20%;
+    background-color: darkgreen;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#Sailing .sailing .sailingintro h2 {
+    font-size: 1.7rem;
+}
+
+#Sailing .sailing .sailingintro p {
+    font-size: 1.2rem;
+}
+
+
+/* Aerial */
+#Aerial {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    margin-bottom: 60px;
+}
+
+#Aerial .aerial {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Aerial .aerial .aerialimg {
+    width: 45%;
+    height: 600px;
+}
+
+#Aerial .aerial .aerialimg img {
+    width: 100%;
+    height: 70%;
+    transform: translateY(95px);
+}
+
+#Aerial .aerial .aerialintro {
+    width: 45%;
+    height: 20%;
+    background-color: darkgreen;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#Aerial .aerial .aerialintro h2 {
+    font-size: 1.7rem;
+}
+
+#Aerial .aerial .aerialintro p {
+    font-size: 1.2rem;
+}
+
+
+/* Gallery */
+#Gallery {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    margin-bottom: 60px;
+}
+
+#Gallery .gallery {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Gallery .gallery .galleryimg {
+    width: 45%;
+    height: 600px;
+}
+
+#Gallery .gallery .galleryimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Gallery .gallery .galleryintro {
+    width: 45%;
+    height: 30%;
+    background-color: darkgreen;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#Gallery .gallery .galleryintro h2 {
+    font-size: 1.7rem;
+}
+
+#Gallery .gallery .galleryintro p {
+    font-size: 1.2rem;
 }
 
 
@@ -538,6 +798,52 @@
 
 #Hotel .hotel .hotel_1 {
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-color: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* 호텔 이미지 + 설명 */
+.hotel_1 .hotelimg {
+    width: 30%;
+    height: 45%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.hotel_1 .hotelimg_1 {
+    width: 100%;
+    height: 60%;
+}
+
+.hotel_1 .hotelimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hotel_1 h5 {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.hotel_1 .hotelintro {
+    width: 100%;
+    height: 16%;
+    background-color: cornsilk;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.hotel_1 .hotelintro p {
+    font-size: 0.9rem;
 }

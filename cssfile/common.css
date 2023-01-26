@@ -192,7 +192,7 @@ header .logo_1 a {
 /* 네비게이션 */
 .nav {
     width: 100%;
-    max-width: 980px;
+    max-width: 1050px;
     height: 100%;
     background-color: blueviolet;
     display: flex;
@@ -427,7 +427,7 @@ header .container .sns ul li {
 }
 
 header .container .sns ul li i {
-    padding-top: 10px;
+    padding: 10px 0 10px;
 }
 
 header .container .sns ul li:first-child,
@@ -484,7 +484,7 @@ footer .logo .logo_2 {
 /* 네비게이션 */
 footer .nav_R {
     width: 90%;
-    max-width: 980px;
+    max-width: 1112px;
     height: 100%;
     background-color: blueviolet;
     display: flex;
