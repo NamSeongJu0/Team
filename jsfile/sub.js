@@ -107,6 +107,41 @@ $(function() {
 
 // 미디어 중간, 모바일 사이즈 메뉴바
 
-$(function() {
+// $(function() {
+
+// })
+
+
+// hahahahahaha
+$(function(){
+
+    $('.spMenu_btn').click(function(){
     
-})
+    $("#side-nav").toggleClass("wow");
+    
+
+    
+    if($("#side-nav").hasClass("wow")){
+    
+    $("#side-nav").animate({"left":"0px"}, '100%');
+    
+    } else {
+    
+    $("#side-nav").animate({"left":"-300px"},'100%');
+    
+    }
+    
+    });
+    
+    });
+  
+
+    $(function() {
+        $('#side-nav > ul:first-child li:first-child > .navT_S, #side-nav > ul:first-child li:nth-of-type(2) > .navT_S').hide();
+    
+        $('#side-nav > ul:first-child li:first-childd, #side-nav > ul:first-child li:nth-of-type(2)').hover(function(){
+            $(this).children('.navT_S').stop().fadeIn(200);
+        }, function(){
+            $(this).children('.navT_S').stop().fadeOut(200);
+        });
+    });

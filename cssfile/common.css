@@ -688,7 +688,7 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
 
 
 /* spMenu 부분 */
-#spMenu {
+/* #spMenu {
     width: 100%;
     height: auto;
     background-color: #555;
@@ -711,16 +711,16 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
 
 
 /* 네비 ul 메인 */
-#spMenu .spMenu_contents .navT .navT_M {
+/* #spMenu .spMenu_contents .navT .navT_M {
     width: 100%;
     height: 500px;
     background-color: salmon;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
+} */
 
-#spMenu .spMenu_contents .navT .navT_M li {
+/* #spMenu .spMenu_contents .navT .navT_M li {
     box-sizing: border-box;
     background-color: #333;
     font-size: 1.5rem;
@@ -733,11 +733,11 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
     margin-right: 15px;
     position: relative;
     text-transform: uppercase;
-}
+} */
 
 
 /* product before */
-.navT .navT_M>li>a::before {
+/* .navT .navT_M>li>a::before {
     opacity: 0.3;
 }
 
@@ -750,11 +750,11 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
     height: 1px;
     bottom: 0;
     background-color: #fff;
-}
+} */
 
 
 /* activities before */
-.navT .navT_M>li:nth-of-type(2)>a::before {
+/* .navT .navT_M>li:nth-of-type(2)>a::before {
     content: "";
     position: absolute;
     top: auto;
@@ -763,11 +763,11 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
     height: 1px;
     bottom: 0;
     background-color: #fff;
-}
+} */
 
 
 /* picup before */
-.navT .navT_M>li:last-child>a::before {
+/* .navT .navT_M>li:last-child>a::before {
     content: "";
     position: absolute;
     top: auto;
@@ -776,11 +776,11 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
     height: 1px;
     bottom: 0;
     background-color: #fff;
-}
+} */
 
 
 /* product after */
-.navT .navT_M>li>a::after {
+/* .navT .navT_M>li>a::after {
     left: auto;
     width: 0;
     right: 0;
@@ -813,11 +813,11 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
 
 .nav .navL .navL_M>li:first-child>a::after:hover {
     
-}
+} */
 
 
 /* activites after */
-.navT .navT_M>li:nth-of-type(2)>a::after {
+/* .navT .navT_M>li:nth-of-type(2)>a::after {
     content: "";
     position: absolute;
     top: auto;
@@ -827,11 +827,11 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
     bottom: 0;
     background-color: #fff;
     opacity: 0;
-}
+} */
 
 
 /* picup after */
-.navT .navT_M>li:last-child>a::after {
+/* .navT .navT_M>li:last-child>a::after {
     content: "";
     position: absolute;
     top: auto;
@@ -848,11 +848,11 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
     padding-left: 15px;
     font-size: 15px;
     transform: translateY(-17%);
-}
+} */
 
 
 /* 네비 ul 서브 */
-.navT .navT_M .navT_S {
+/* .navT .navT_M .navT_S {
     width: 230px;
     position: absolute;
     top: 50px;
@@ -878,19 +878,19 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
 
 .navT.navT_M .navT_S li a {
     color: gold;
-}
+} */
 
 
 /* 네비 오른쪽 ul */
-.nav .navR {
+/* .nav .navR {
     width: 50%;
     height: auto;
     background-color: chartreuse;
-}
+} */
 
 
 /* 네비 오른쪽 ul 메인 */
-.nav .navR_M {
+/* .nav .navR_M {
     width: 95%;
     height: 100%;
     background-color: salmon;
@@ -908,11 +908,11 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
 
 .nav .navR_M li:first-child {
     margin-right: 15px;
-}
+} */
 
 
 /* sns 부분 */
-header .container .sns {
+/* header .container .sns {
     width: 20%;
     background-color: aqua;
 }
@@ -934,7 +934,20 @@ header .container .sns ul li i {
 header .container .sns ul li:first-child,
 header .container .sns ul li:nth-of-type(2) {
     margin-right: 3%;
-}
+} */
+
+/* ...hahahahahahahahaha */
+#contents > div {height: 100vh;}
+
+#side-nav {width: 100%; height:100vh; background-color:#fff; position: fixed; opacity:0.9; z-index: 4; top: 0;}
+
+#side-nav li {text-decoration:none; text-align:center; line-height:35px; cursor:pointer;}
+
+#side-nav li a {color:#333;}
+
+#side-nav li:hover {background-color:rgba(0,0,0,0.8); color:#fff;}
+
+#side-nav li:hover a{color:#fff;}
 
 
 /* 미디어 모바일 사이즈 */
