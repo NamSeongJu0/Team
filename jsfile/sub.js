@@ -1,15 +1,13 @@
 // header active 효과
 $(function() {
     $(window).resize(function(){
-        if(window.innerWidth > 1099){
+        if(window.innerWidth > 1199){
            $('.spMenu_btn').hide();
            $('.nav, .nav_R .navL').show();
-        //    $('header container .logo_1').addClass('on');
         }
         else{
             $('.spMenu_btn').show();
             $('.nav, .nav_R .navL').hide();
-            // $('header container .logo_1').removeClass('on');
         }
        });
 });
@@ -79,26 +77,24 @@ const contentEm = document.querySelectorAll("header");
 
 // 움직임 효과
 $(function() {
-    $(document).mousemove(function(e){
+    $('header').mousemove(function(e){
         gsap.to(".cursor", {duration: 0.4, left: e.pageX, top: e.pageY});
     });
+
+    $('header').mouseover(function(e){
+        $('.cursor').css("display", "block");
+    });
+    $('header').mouseout(function(e){
+        $('.cursor').css("display", "none");
+    });
     
+
     // 오버 효과
-    $(".nav .navL .navL_M > li:first-child").hover(function(){
+    $(".nav .navL .navL_M li, header .logo_1, .sns a, header .spMenu_btn ul").hover(function(){
         $(".cursor").addClass("active");
     }, function(){
         $(".cursor").removeClass("active");
     });
-    
-    // 출력용
-    // $(".info.bottom li").click(function(){
-    
-    //     const text = $(this).text();
-        
-    //     $(".info.bottom li").removeClass("active");
-    //     $(this).addClass("active");
-    //     $(".cursor").css("mix-blend-mode", text);
-    // });
     
     // 제목에 마우스 오버 했을 때
     $(".sns ul li").hover(function(){
@@ -107,3 +103,10 @@ $(function() {
         $(this).children().css({'color': 'white', 'transition': 'all 0.5s ease-in'});
     });
 });
+
+
+// 미디어 중간, 모바일 사이즈 메뉴바
+
+$(function() {
+    
+})
