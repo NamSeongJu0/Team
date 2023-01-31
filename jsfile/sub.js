@@ -4,6 +4,7 @@ $(function() {
         if(window.innerWidth > 1199){
            $('.spMenu_btn').hide();
            $('.nav, .nav_R .navL').show();
+           $("#side-nav").hide();
         }
         else{
             $('.spMenu_btn').show();
@@ -19,7 +20,7 @@ $(function () {
 
         $('#slidewrap .slide li:last').prependTo('#slidewrap .slide');
         
-        $('#slidewrap .slide').css('margin-left', 1100); // $('.slide').css({marginLeft:-1000}); 
+        $('#slidewrap .slide').css('margin-left', 1100);
         
         $('#slidewrap .slide').stop().animate({marginLeft: 0},800);
         
@@ -37,7 +38,7 @@ $(function () {
         
         }
 
-        setInterval(next, 3000); //자동슬라이드
+        setInterval(next, 3000);
 
         
         //버튼 슬라이드
@@ -107,41 +108,35 @@ $(function() {
 
 // 미디어 중간, 모바일 사이즈 메뉴바
 
-// $(function() {
+// 버튼 클릭 시 왼쪽에서 메뉴바 나오는 효과
+$(function () {
 
-// })
+    $('.spMenu_btn').click(function () {
 
+        $("#side-nav").css("display", "block");
 
-// hahahahahaha
-$(function(){
+        $("#side-nav").toggleClass("wow");
 
-    $('.spMenu_btn').click(function(){
-    
-    $("#side-nav").toggleClass("wow");
-    
+        if ($("#side-nav").hasClass("wow")) {
 
-    
-    if($("#side-nav").hasClass("wow")){
-    
-    $("#side-nav").animate({"left":"0px"}, '100%');
-    
-    } else {
-    
-    $("#side-nav").animate({"left":"-300px"},'100%');
-    
-    }
-    
+            $("#side-nav").animate({ "left": "0px" }, '100%');
+
+        } else {
+
+            $("#side-nav").animate({ "left": "-10000px" }, '100%');
+
+        }
+
     });
-    
-    });
+
+});
   
 
+    // 메뉴바
     $(function() {
         $('#side-nav > ul:first-child li:first-child > .navT_S, #side-nav > ul:first-child li:nth-of-type(2) > .navT_S').hide();
     
-        $('#side-nav > ul:first-child li:first-childd, #side-nav > ul:first-child li:nth-of-type(2)').hover(function(){
-            $(this).children('.navT_S').stop().fadeIn(200);
-        }, function(){
-            $(this).children('.navT_S').stop().fadeOut(200);
+        $('#side-nav > ul:first-child li:first-child, #side-nav > ul:first-child li:nth-of-type(2)').click(function(){
+            $(this).children('.navT_S').stop().slideToggle(800);
         });
     });

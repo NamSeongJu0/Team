@@ -16,7 +16,7 @@
 
 #section .container #contents_M {
     width: 100%;
-    height: 11050px;
+    height: auto;
     background-color: darksalmon;
     position: relative; 
     display: flex;
@@ -39,7 +39,7 @@
     position: absolute;
     top: 7px;
     right: -76px;
-    z-index: 10;
+    z-index: 1;
     width: 120px;
     height: 150px;
     background: url(../subimg/360sky.png) no-repeat 0px 5px;
@@ -47,17 +47,13 @@
 }
 
 #section .container #contents_M .section_L h2 {
-    width: 260px;
-    height: 300px;
-    margin: 0;
-}
+    width: 15vw;
+    height: auto;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 20px auto;
 
-#section .container #contents_M .section_L h2 a {
-    width: 100%;
-    height: 100%;
-    background: url(../subimg/logo.png) no-repeat 50% 15px;
-    overflow: hidden;
-    display: block;
 }
 
 #section .container #contents_M .section_L .question {
@@ -66,7 +62,7 @@
     right: -125px;
     width: 81px;
     height: 81px;
-    z-index: 10;
+    z-index: 1;
     display: block;
 }
 
@@ -83,7 +79,7 @@
 
 /* 왼쪽 p 설명 */
 .section_L .intro {
-    width: 100%;
+    width: 20vw;
     height: auto;
     background-color: slateblue;
     margin: 0 auto;
@@ -97,10 +93,10 @@
 
 /* 왼쪽 슬라이드 slide1 */
 #section .section_L .slide1 {
-    width: 100%;
-    height: 250px;
-    background-color: darkred;
-    margin-bottom: 20px;
+    width: 20vw;
+    height: 10vw;
+    margin: 20px auto;
+    background-color: darkred;  
 }
 
 #section .section_L .slide1 ul {
@@ -122,10 +118,10 @@
 
 /* 왼쪽 슬라이드 slide1_1 */
 #section .section_L .slide1_1 {
-    width: 100%;
-    height: 250px;
+    width: 20vw;
+    height: 10vw;
+    margin: 20px auto;
     background-color: darkred;
-    margin-bottom: 20px;
 }
 
 #section .section_L .slide1_1 ul {
@@ -147,8 +143,9 @@
 
 /* 왼쪽 request 부분 */
 #section .section_L .request {
-    width: 100%;
-    height: 150px;
+    width: 20vw;
+    height: 8vw;
+    margin: 20px auto;
     background-color: darkkhaki;
     display: flex;
     justify-content: flex-start;
@@ -174,9 +171,6 @@
 #section .container #contents_M .section_R {
     width: 75%;
     height: auto;
-    position: absolute;
-    top: 0;
-    right: 0;
     background-color: chocolate;
     box-sizing: border-box;
     padding: 0 15px;
@@ -185,7 +179,7 @@
 
 /* 이미지 전환 슬라이더 */
 #slidewrap {
-    width: 1100px;
+    width: 87%;
     height: 500px;
     margin: 50px auto;
     position: relative;
@@ -208,9 +202,9 @@
 }
 
 #slidewrap p {
-    width: 350px;
-    height: 60px;
-    line-height: 60px;
+    width: 15vw;
+    height: 3vw;
+    line-height: 3vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -270,7 +264,7 @@
 
 #Active .active h1 {
     font-size: 3rem;
-    height: 55px;
+    height: 3vw;
     font-weight: bold;
     color: burlywood;
     text-align: center;
@@ -279,7 +273,7 @@
 
 #Active .active .image {
     width: 100%;
-    height: 800px;
+    height: 51vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -289,8 +283,8 @@
 }
 
 #Active .active .image .img1 {
-    width: 24%;
-    height: 45%;
+    width: 15vw;
+    height: 23vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/camping.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -304,8 +298,8 @@
 }
 
 #Active .active .image .img2 {
-    width: 24%;
-    height: 45%;
+    width: 15vw;
+    height: 23vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/bird.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -320,8 +314,8 @@
 }
 
 #Active .active .image .img3 {
-    width: 24%;
-    height: 45%;
+    width: 15vw;
+    height: 23vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Palau_19_Waterfall_3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -335,8 +329,8 @@
 }
 
 #Active .active .image .img4 {
-    width: 24%;
-    height: 45%;
+    width: 15vw;
+    height: 23vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/IMG_1536.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -350,8 +344,8 @@
 }
 
 #Active .active .image .img5 {
-    width: 24%;
-    height: 45%;
+    width: 15vw;
+    height: 23vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Kayak.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -365,8 +359,8 @@
 }
 
 #Active .active .image .img6 {
-    width: 24%;
-    height: 45%;
+    width: 15vw;
+    height: 23vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Palau_19_Canoe_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -380,8 +374,8 @@
 }
 
 #Active .active .image .img7 {
-    width: 24%;
-    height: 45%;
+    width: 15vw;
+    height: 23vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Palau_19_PMA_14.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -395,8 +389,8 @@
 }
 
 #Active .active .image .img8 {
-    width: 24%;
-    height: 45%;
+    width: 15vw;
+    height: 23vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Photo-29-05-2017-1-05-42-AM.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -416,7 +410,7 @@
 }
 
 #Active .active .image a {
-    width: 50%;
+    width: 8vw;
     border: 1px solid white;
     text-align: center;
     font-size: 1rem;
@@ -444,7 +438,7 @@
 
 #Camping .camping .campingimg {
     width: 45%;
-    height: 600px;
+    height: 38vw;
 }
 
 #Camping .camping .campingimg img {
@@ -487,7 +481,7 @@
 
 #Bird .bird .birdimg {
     width: 45%;
-    height: 400px;
+    height: 21vw;
 }
 
 #Bird .bird .birdimg img {
@@ -535,7 +529,7 @@
 
 #Waterfall .waterfall .waterfallimg {
     width: 45%;
-    height: 500px;
+    height: 27vw;
 }
 
 #Waterfall .waterfall .waterfallimg img {
@@ -578,7 +572,7 @@
 
 #Nature .nature .natureimg {
     width: 45%;
-    height: 600px;
+    height: 32vw;
 }
 
 #Nature .nature .natureimg img {
@@ -621,7 +615,7 @@
 
 #Kayaking .kayaking .kayakingimg {
     width: 45%;
-    height: 600px;
+    height: 33vw;
 }
 
 #Kayaking .kayaking .kayakingimg img {
@@ -664,7 +658,7 @@
 
 #Sailing .sailing .sailingimg {
     width: 45%;
-    height: 600px;
+    height: 32vw;
 }
 
 #Sailing .sailing .sailingimg img {
@@ -707,13 +701,12 @@
 
 #Aerial .aerial .aerialimg {
     width: 45%;
-    height: 600px;
+    height: 30vw;
 }
 
 #Aerial .aerial .aerialimg img {
     width: 100%;
-    height: 70%;
-    transform: translateY(95px);
+    height: 100%;
 }
 
 #Aerial .aerial .aerialintro {
@@ -751,7 +744,7 @@
 
 #Gallery .gallery .galleryimg {
     width: 45%;
-    height: 600px;
+    height: 32vw;
 }
 
 #Gallery .gallery .galleryimg img {
@@ -791,7 +784,7 @@
 
 #Hotel .hotel h1 {
     font-size: 3rem;
-    height: 55px;
+    height: 3vw;
     font-weight: bold;
     color: burlywood;
     text-align: center;
@@ -803,7 +796,7 @@
 /* 호텔 1 */
 #Hotel .hotel .hotel_1 {
     width: 100%;
-    height: 900px;
+    height: 60vw;
     background-color: cadetblue;
     display: flex;
     justify-content: space-evenly;
@@ -812,8 +805,8 @@
 }
 
 .hotel_1 .hotelimg {
-    width: 30%;
-    height: 45%;
+    width: 20vw;
+    height: 27vw;
     background-color: cornflowerblue;
     display: flex;
     flex-wrap: wrap;
@@ -823,7 +816,7 @@
 
 .hotel_1 .hotelimg_1 {
     width: 100%;
-    height: 60%;
+    height: 15vw;
 }
 
 .hotel_1 .hotelimg img {
@@ -836,7 +829,6 @@
     width: 100%;
     font-size: 1rem;
     text-align: center;
-    margin-top: 25px;
 }
 
 .hotel_1 .hotelintro {
@@ -855,7 +847,7 @@
 /* 호텔2 */
 #Hotel .hotel .hotel_2 {
     width: 100%;
-    height: 900px;
+    height: 60vw;
     background-color: cadetblue;
     display: flex;
     justify-content: space-evenly;
@@ -864,8 +856,8 @@
 }
 
 .hotel_2 .hotelimg {
-    width: 30%;
-    height: 45%;
+    width: 20vw;
+    height: 27vw;
     background-color: cornflowerblue;
     display: flex;
     flex-wrap: wrap;
@@ -875,7 +867,7 @@
 
 .hotel_2 .hotelimg_1 {
     width: 100%;
-    height: 60%;
+    height: 15vw;
 }
 
 .hotel_2 .hotelimg img {
@@ -888,7 +880,6 @@
     width: 100%;
     font-size: 1rem;
     text-align: center;
-    margin-top: 25px;
 }
 
 .hotel_2 .hotelintro {
@@ -907,7 +898,7 @@
 /* 호텔3 */
 #Hotel .hotel .hotel_3 {
     width: 100%;
-    height: 900px;
+    height: 60vw;
     background-color: cadetblue;
     display: flex;
     justify-content: space-evenly;
@@ -916,8 +907,8 @@
 }
 
 .hotel_3 .hotelimg {
-    width: 30%;
-    height: 45%;
+    width: 20vw;
+    height: 27vw;
     background-color: cornflowerblue;
     display: flex;
     flex-wrap: wrap;
@@ -927,7 +918,7 @@
 
 .hotel_3 .hotelimg_1 {
     width: 100%;
-    height: 60%;
+    height: 15vw;
 }
 
 .hotel_3 .hotelimg img {
@@ -940,7 +931,6 @@
     width: 100%;
     font-size: 1rem;
     text-align: center;
-    margin-top: 25px;
 }
 
 .hotel_3 .hotelintro {
@@ -959,7 +949,7 @@
 /* 호텔4 */
 #Hotel .hotel .hotel_4 {
     width: 100%;
-    height: 900px;
+    height: 60vw;
     background-color: cadetblue;
     display: flex;
     justify-content: space-evenly;
@@ -968,8 +958,8 @@
 }
 
 .hotel_4 .hotelimg {
-    width: 30%;
-    height: 45%;
+    width: 20vw;
+    height: 27vw;
     background-color: cornflowerblue;
     display: flex;
     flex-wrap: wrap;
@@ -979,7 +969,7 @@
 
 .hotel_4 .hotelimg_1 {
     width: 100%;
-    height: 60%;
+    height: 15vw;
 }
 
 .hotel_4 .hotelimg img {
@@ -992,7 +982,6 @@
     width: 100%;
     font-size: 1rem;
     text-align: center;
-    margin-top: 25px;
 }
 
 .hotel_4 .hotelintro {
@@ -1011,7 +1000,7 @@
 /* 호텔5 */
 #Hotel .hotel .hotel_5 {
     width: 100%;
-    height: 900px;
+    height: 60vw;
     background-color: cadetblue;
     display: flex;
     justify-content: space-evenly;
@@ -1020,8 +1009,8 @@
 }
 
 .hotel_5 .hotelimg {
-    width: 30%;
-    height: 45%;
+    width: 20vw;
+    height: 27vw;
     background-color: cornflowerblue;
     display: flex;
     flex-wrap: wrap;
@@ -1031,7 +1020,7 @@
 
 .hotel_5 .hotelimg_1 {
     width: 100%;
-    height: 60%;
+    height: 15vw;
 }
 
 .hotel_5 .hotelimg img {
@@ -1044,7 +1033,6 @@
     width: 100%;
     font-size: 1rem;
     text-align: center;
-    margin-top: 25px;
 }
 
 .hotel_5 .hotelintro {
