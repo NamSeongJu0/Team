@@ -201,7 +201,7 @@
     height: 100%;
 }
 
-#slidewrap p {
+#slidewrap a {
     width: 15vw;
     height: 3vw;
     line-height: 3vw;
@@ -209,9 +209,22 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#slidewrap a p {
+    width: 15vw;
+    height: 3vw;
+    line-height: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
     text-align: center;
-    background-color: #fff;
-    opacity: 0.8;
+    mix-blend-mode: inherit;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
     border-radius: 10px;
 }
 
@@ -833,7 +846,8 @@
 
 .hotel_1 .hotelintro {
     width: 100%;
-    height: 16%;
+    height: 4vw;
+    line-height: 1.7;
     background-color: cornsilk;
     box-sizing: border-box;
     padding: 10px;
@@ -884,7 +898,8 @@
 
 .hotel_2 .hotelintro {
     width: 100%;
-    height: 16%;
+    height: 4vw;
+    line-height: 1.7;
     background-color: cornsilk;
     box-sizing: border-box;
     padding: 10px;
@@ -935,7 +950,8 @@
 
 .hotel_3 .hotelintro {
     width: 100%;
-    height: 16%;
+    height: 4vw;
+    line-height: 1.7;
     background-color: cornsilk;
     box-sizing: border-box;
     padding: 10px;
@@ -986,7 +1002,8 @@
 
 .hotel_4 .hotelintro {
     width: 100%;
-    height: 16%;
+    height: 4vw;
+    line-height: 1.7;
     background-color: cornsilk;
     box-sizing: border-box;
     padding: 10px;
@@ -1037,7 +1054,8 @@
 
 .hotel_5 .hotelintro {
     width: 100%;
-    height: 16%;
+    height: 4vw;
+    line-height: 1.7;
     background-color: cornsilk;
     box-sizing: border-box;
     padding: 10px;
