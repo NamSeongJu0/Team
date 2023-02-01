@@ -424,6 +424,11 @@ footer .topbtn a {
 footer .topbtn a i {
     font-size: 5vw;
     padding-left: 5px;
+    color: gold;
+}
+
+footer .topbtn a i:hover {
+    color: orange;
 }
 
 footer .container {
@@ -651,7 +656,7 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
 
 
 /* ...hahahahahahahahaha */
-#side-nav {
+/* #side-nav {
     width: 100%;
     height: auto;
     background-color: #fff;
@@ -725,7 +730,7 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
 
 
 /* sns 부분 */
-#side-nav .sns {
+/* #side-nav .sns {
     width: 100%;
     height: auto;
 }
@@ -742,18 +747,12 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
     box-sizing: border-box;
     padding: 15px;
     margin: 0 auto;
-}
+}  */
 
 
 /* 미디어 모바일 사이즈 */
 @media (max-width: 767px) {
-
-}
-
-
-/* 미디어 중간 사이즈 */
-@media (min-width: 768px) and (max-width: 1199px) {
-/* 마우스 포인터 효과 */
+    /* 마우스 포인터 효과 */
 .cursor {
     position: absolute;
     left: 0;
@@ -780,7 +779,7 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
-    height: 5vw;
+    height: 8vw;
     background-color: rgba(0, 0, 0, 0) !important;
     mix-blend-mode: inherit;
     backdrop-filter: blur(4px);
@@ -809,16 +808,16 @@ header .container {
 .spMenu_btn {
     display: block;
     position: absolute;
-    width: 5vw;
-    height: 5vw;
+    width: 8vw;
+    height: 8vw;
     cursor: pointer;
     background-color: darkorchid;
 }
 
 .spMenu_btn>ul {
     position: absolute;
-    width: 20px;
-    height: 1px;
+    width: 3vw;
+    height: 3px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -869,6 +868,7 @@ header .logo_1 {
 }
 
 header .logo_1 a {
+    font-size: 3vw;
     color: coral;
 }
 
@@ -1093,7 +1093,7 @@ header .logo_1 a {
 
 /* sns 부분 */
 header .container .sns {
-    width: 20%;
+    width: 21%;
     background-color: aqua;
 }
 
@@ -1104,7 +1104,7 @@ header .container .sns ul {
 }
 
 header .container .sns ul li {
-    font-size: 1.5rem;
+    font-size: 2vw;
 }
 
 header .container .sns ul li i {
@@ -1120,7 +1120,7 @@ header .container .sns ul li:nth-of-type(2) {
 /* 풋터 부분 */
 footer {
     width: 100%;
-    height: 5vw;
+    height: 8vw;
     background-color: rgb(0, 0, 0);
     z-index: 5;
 }
@@ -1128,8 +1128,8 @@ footer {
 
 /* 탑 버튼 */
 footer .topbtn {
-    width: 5vw;
-    height: 5vw;
+    width: 8vw;
+    height: 8vw;
     position: fixed;
     right: 0;
     bottom: 0;
@@ -1142,8 +1142,13 @@ footer .topbtn a {
 }
 
 footer .topbtn a i {
-    font-size: 5vw;
+    font-size: 8vw;
     padding-left: 5px;
+    color: gold;
+}
+
+footer .topbtn a i:hover {
+    color: orange;
 }
 
 footer .container {
@@ -1159,7 +1164,7 @@ footer .container {
 /* 로고 이미지 */
 
 footer .logo_1 a {
-    font-size: 2vw;
+    font-size: 3vw;
     color: coral;
 }
 
@@ -1359,7 +1364,7 @@ footer .nav_R .navR_M {
 footer .nav_R .navR .navR_M li {
     box-sizing: border-box;
     background-color: #333;
-    font-size: 1.3rem;
+    font-size: 2vw;
     text-transform: uppercase;
 }
 
@@ -1373,13 +1378,12 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
 #side-nav {
     width: 100%;
     height: auto;
-    background-color: #fff;
+    background-color: #434343;
     position: absolute;
     opacity: 0.9;
     z-index: 4;
-    top: 100px;
+    top: 8vw;
     display: none;
-    top: 5vw;
 }
 
 #side-nav li {
@@ -1392,8 +1396,7 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
 
 #side-nav ul:first-child {
     width: 90%;
-    height: 500px;
-    background-color: aquamarine;
+    height: 50vw;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -1404,13 +1407,23 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
 }
 
 #side-nav ul:first-child li {
-    font-size: 3rem;
+    font-size: 3vw;
+    border-bottom: 1px solid white;
+}
+
+#side-nav ul:first-child li:first-child .navT_S li,
+#side-nav ul:first-child li:nth-of-type(2) .navT_S li {
+    border-bottom: none;
+}
+
+#side-nav ul:first-child li:first-child .navT_S li a:hover,
+#side-nav ul:first-child li:nth-of-type(2) .navT_S li a:hover {
+    text-shadow: none;
 }
 
 #side-nav ul:nth-of-type(2) {
     width: 90%;
-    height: 100px;
-    background-color: darkgray;
+    height: 10vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -1421,12 +1434,16 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
 
 #side-nav ul:nth-of-type(2) li {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 #side-nav .navT_S li a {
     color: gold;
     font-size: 2rem;
+}
+
+#side-nav .navT_S li a:hover {
+    text-decoration: underline;
 }
 
 #side-nav ul:first-child li:nth-of-type(1) i,
@@ -1435,11 +1452,11 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
 }
 
 #side-nav li a {
-    color: #333;
+    color: #fff;
 }
 
 #side-nav a:hover {
-    color: #fff;
+    text-shadow: -1px 0px yellow, 0px 1px yellow, 1px 0px yellow, 0px -1px yellow;
     transition: all 0.5s ease-in;
 }
 
@@ -1452,9 +1469,740 @@ footer .nav_R .navR .navR_M li:nth-of-type(2) {
 
 #side-nav .sns ul {
     width: 90%;
-    height: 500px;
+    height: 50vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+}
+
+
+/* 미디어 중간 사이즈 */
+@media (min-width: 768px) and (max-width: 1199px) {
+
+/* 마우스 포인터 효과 */
+.cursor {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: 1000;
+    background: #fff;
+    user-select: none;
+    pointer-events: none;
+    transform: scale(1);
+    transition: transform .3s ease-in-out, opacity .2s ease-in-out;
+    mix-blend-mode: difference;
+}
+
+.cursor.active {
+    transform: scale(2);
+}
+
+
+/* 헤더 시작 */
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 8vw;
+    background-color: rgba(0, 0, 0, 0) !important;
+    mix-blend-mode: inherit;
+    backdrop-filter: blur(4px);
+    z-index: 5;
+    cursor: none;
+}
+
+header.active {
+    transform: translate3d(0, 0, 0);
+}
+
+
+/* 주요 컨텐츠 사이즈 */
+header .container {
+    width: 90%;
+    height: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+/* 메뉴바 */
+.spMenu_btn {
+    display: block;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    cursor: pointer;
+    background-color: darkorchid;
+}
+
+.spMenu_btn>ul {
+    position: absolute;
+    width: 3vw;
+    height: 3px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: chocolate;
+}
+
+.spMenu_btn>ul>li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.spMenu_btn>ul>li:first-child {
+    top: -7px;
+}
+
+.spMenu_btn>ul>li:last-child {
+    width: 50%;
+    top: 7px;
+}
+
+
+/* spMenu_btn li before, after */
+.spMenu_btn>ul>li::before,
+.spMenu_btn>ul>li::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.spMenu_btn>ul>li::after {
+    transform: translateX(-100%);
+}
+
+header a {
+    line-height: 40px;
+}
+
+header .logo_1 {
+    margin: 0 auto;
+}
+
+header .logo_1 a {
+    font-size: 3vw;
+    color: coral;
+}
+
+
+/* 네비게이션 */
+.nav {
+    width: 100%;
+    max-width: 1050px;
+    height: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+
+/* 네비 왼쪽 */
+.nav .navL {
+    width: 60%;
+    height: auto;
     background-color: aqua;
+    padding-left: 4px;
+}
+
+
+/* 네비 ul 메인 */
+.nav .navL .navL_M {
+    width: 100%;
+    height: 100%;
+    background-color: salmon;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav .navL .navL_M li {
+    box-sizing: border-box;
+    background-color: #333;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #fff;
+}
+
+.nav .navL .navL_M>li:first-child,
+.nav .navL .navL_M>li:nth-of-type(2),
+.nav .navL .navL_M>li:last-child {
+    margin-right: 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+/* product before */
+.nav .navL .navL_M>li>a::before {
+    opacity: 0.3;
+}
+
+.nav .navL .navL_M>li:first-child>a::before {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #fff;
+}
+
+
+/* activities before */
+.nav .navL .navL_M>li:nth-of-type(2)>a::before {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #fff;
+}
+
+
+/* picup before */
+.nav .navL .navL_M>li:last-child>a::before {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #fff;
+}
+
+
+/* product after */
+.nav .navL .navL_M>li>a::after {
+    left: auto;
+    width: 0;
+    right: 0;
+}
+
+.nav .navL .navL_M>li:first-child>a::after {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #fff;
+}
+
+.nav .navL .navL_M>li:first-child>a::after:hover {
+    animation: graph 1.5s ease-in-out;
+}
+
+@keyframes graph {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+
+/* activites after */
+.nav .navL .navL_M>li:nth-of-type(2)>a::after {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #fff;
+    opacity: 0;
+}
+
+
+/* picup after */
+.nav .navL .navL_M>li:last-child>a::after {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #fff;
+    opacity: 0;
+}
+
+.nav .navL .navL_M li:first-child i,
+.nav .navL .navL_M li:nth-of-type(2) i {
+    padding-left: 15px;
+    font-size: 15px;
+    transform: translateY(-17%);
+}
+
+
+/* 네비 ul 서브 */
+.nav .navL .navL_M .navL_S {
+    width: 230px;
+    position: absolute;
+    top: 50px;
+    background-color: blue;
+    box-sizing: border-box;
+    text-align: left;
+    backdrop-filter: blur(4px);
+    text-transform: none;
+}
+
+.nav .navL .navL_M .navL_S li {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.nav .navL .navL_M .navL_S li:hover {
+    text-decoration: underline;
+}
+
+.nav .navL .navL_M .navL_S li:last-child {
+    border-bottom: none;
+}
+
+.nav .navL .navL_M .navL_S li a {
+    color: gold;
+}
+
+
+/* 네비 오른쪽 ul */
+.nav .navR {
+    width: 50%;
+    height: auto;
+    background-color: chartreuse;
+}
+
+
+/* 네비 오른쪽 ul 메인 */
+.nav .navR_M {
+    width: 95%;
+    height: 100%;
+    background-color: salmon;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav .navR .navR_M li {
+    box-sizing: border-box;
+    background-color: #333;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.nav .navR_M li:first-child {
+    margin-right: 15px;
+}
+
+
+/* sns 부분 */
+header .container .sns {
+    width: 21%;
+    background-color: aqua;
+}
+
+header .container .sns ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .container .sns ul li {
+    font-size: 2vw;
+}
+
+header .container .sns ul li i {
+    padding: 10px 0 10px;
+}
+
+header .container .sns ul li:first-child,
+header .container .sns ul li:nth-of-type(2) {
+    margin-right: 3%;
+}
+
+
+/* 풋터 부분 */
+footer {
+    width: 100%;
+    height: 8vw;
+    background-color: rgb(0, 0, 0);
+    z-index: 5;
+}
+
+
+/* 탑 버튼 */
+footer .topbtn {
+    width: 8vw;
+    height: 8vw;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+}
+
+footer .topbtn a {
+    width: 100%;
+    height: 100%;
+}
+
+footer .topbtn a i {
+    font-size: 8vw;
+    padding-left: 5px;
+    color: gold;
+}
+
+footer .topbtn a i:hover {
+    color: orange;
+}
+
+footer .container {
+    width: 90%;
+    height: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* 로고 이미지 */
+
+footer .logo_1 a {
+    font-size: 3vw;
+    color: coral;
+}
+
+/* 네비게이션 */
+footer .nav_R {
+    width: 90%;
+    max-width: 1112px;
+    height: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+
+/* 네비 왼쪽 */
+footer .nav_R .navL {
+    width: 50%;
+    height: auto;
+    background-color: aqua;
+}
+
+
+/* 네비 ul 메인 */
+footer .nav_R .navL .navL_M {
+    width: 100%;
+    height: 100%;
+    background-color: salmon;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer .nav_R .navL .navL_M li {
+    box-sizing: border-box;
+    background-color: #333;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #fff;
+}
+
+footer .nav_R .navL .navL_M>li:first-child,
+footer .nav_R .navL .navL_M>li:nth-of-type(2) {
+    margin-right: 15px;
+}
+
+footer .nav_R .navL .navL_M>li:first-child a i,
+footer .nav_R .navL .navL_M>li:nth-of-type(2) a i {
+    padding-left: 15px;
+    font-size: 15px;
+    transform: translateY(-17%);
+}
+
+footer .nav_R .navL .navL_M>li:first-child,
+footer .nav_R .navL .navL_M>li:nth-of-type(2),
+footer .nav_R .navL .navL_M>li:last-child {
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+/* product before */
+footer .nav_R .navL .navL_M>li>a::before {
+    opacity: 0.3;
+}
+
+footer .nav_R .navL .navL_M>li:first-child>a::before {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #fff;
+}
+
+footer .nav_R .navL .navL_M>li:nth-of-type(2)>a::before {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #fff;
+}
+
+footer .nav_R .navL .navL_M>li:last-child>a::before {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #fff;
+}
+
+
+/* product after */
+footer .nav_R .navL .navL_M>li>a::after {
+    left: auto;
+    width: 0;
+    right: 0;
+}
+
+footer .nav_R .navL .navL_M>li:first-child>a::after {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #fff;
+}
+
+
+/* activities after */
+footer .nav_R .navL .navL_M>li:nth-of-type(2)>a::after {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #fff;
+}
+
+
+/* picup after */
+footer .nav_R .navL .navL_M>li:last-child>a::after {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #fff;
+}
+
+footer .nav_R .navL .navL_M li:first-child i,
+footer .nav_R .navL .navL_M li:nth-of-type(2) i {
+    padding-left: 15px;
+}
+
+
+/* 네비 ul 서브 */
+footer .nav_R .navL .navL_M .navL_S {
+    width: 230px;
+    position: absolute;
+    bottom: 37px;
+    left: 0;
+    background-color: blue;
+    box-sizing: border-box;
+    text-align: left;
+    backdrop-filter: blur(4px);
+    text-transform: none;
+}
+
+footer .nav_R .navL .navL_M .navL_S li {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+footer .nav_R .navL .navL_M .navL_S li:hover {
+    text-decoration: underline;
+}
+
+footer .nav_R .navL .navL_M .navL_S li:last-child {
+    border-bottom: none;
+}
+
+footer .nav_R .navL .navL_M .navL_S li a {
+    color: gold;
+}
+
+footer .nav_R .navR {
+    width: 35%;
+    height: auto;
+    background-color: chartreuse;
+}
+
+
+/* 네비 오른쪽 ul 메인 */
+footer .nav_R .navR_M {
+    width: 100%;
+    height: 100%;
+    background-color: salmon;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer .nav_R .navR .navR_M li {
+    box-sizing: border-box;
+    background-color: #333;
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+
+footer .nav_R .navR .navR_M li:first-child,
+footer .nav_R .navR .navR_M li:nth-of-type(2) {
+    margin-right: 15px;
+}
+
+
+/* ...hahahahahahahahaha */
+#side-nav {
+    width: 100%;
+    height: auto;
+    background-color: #434343;
+    position: absolute;
+    opacity: 0.9;
+    z-index: 4;
+    top: 8vw;
+    display: none;
+}
+
+#side-nav li {
+    width: 100%;
+    text-decoration: none;
+    text-align: left;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+#side-nav ul:first-child {
+    width: 90%;
+    height: 50vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#side-nav ul:first-child li {
+    font-size: 3vw;
+    border-bottom: 1px solid white;
+}
+
+#side-nav ul:first-child li:first-child .navT_S li,
+#side-nav ul:first-child li:nth-of-type(2) .navT_S li {
+    border-bottom: none;
+}
+
+#side-nav ul:first-child li:first-child .navT_S li a:hover,
+#side-nav ul:first-child li:nth-of-type(2) .navT_S li a:hover {
+    text-shadow: none;
+}
+
+#side-nav ul:nth-of-type(2) {
+    width: 90%;
+    height: 10vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#side-nav ul:nth-of-type(2) li {
+    text-align: center;
+    font-size: 2vw;
+}
+
+#side-nav .navT_S li a {
+    color: gold;
     font-size: 2rem;
+}
+
+#side-nav .navT_S li a:hover {
+    text-decoration: underline;
+}
+
+#side-nav ul:first-child li:nth-of-type(1) i,
+#side-nav ul:first-child li:nth-of-type(2) i {
+    padding-left: 15px;
+}
+
+#side-nav li a {
+    color: #fff;
+}
+
+#side-nav a:hover {
+    text-shadow: -1px 0px yellow, 0px 1px yellow, 1px 0px yellow, 0px -1px yellow;
+    transition: all 0.5s ease-in;
+}
+
+
+/* sns 부분 */
+#side-nav .sns {
+    width: 100%;
+    height: auto;
+}
+
+#side-nav .sns ul {
+    width: 90%;
+    height: 50vw;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
