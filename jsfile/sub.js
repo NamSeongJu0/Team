@@ -1,29 +1,3 @@
-// 미디어 중간, 모바일 사이즈 메뉴바
-
-// 버튼 클릭 시 왼쪽에서 메뉴바 나오는 효과
-$(function () {
-
-    $('.spMenu_btn').click(function () {
-
-        $("#side-nav").css("display", "block");
-
-        $("#side-nav").toggleClass("wow");
-
-        if ($("#side-nav").hasClass("wow")) {
-
-            $("#side-nav").animate({ "left": "0px" }, '100%');
-
-        } else {
-
-            $("#side-nav").animate({ "left": "-10000px" }, '100%');
-
-        }
-
-    });
-
-});
-
-
 // section 이미지 전환
 $(function () {
     function prev() {
@@ -68,37 +42,86 @@ $(function () {
 });
 
 
-// 호텔 스크롤 이벤트
+// // 호텔 스크롤 이벤트
+// $(document).ready(function () {
+//     $(window).scroll(function () {
+//         if ($(this).scrollTop() > 6100) {
+//             $('.hotel_1').addClass('active1');
+//         } else {
+//             $('.hotel_1').removeClass('active1');
+//         }
+
+//         if ($(this).scrollTop() > 7500) {
+//             $('.hotel_2').addClass('active1');
+//         } else {
+//             $('.hotel_2').removeClass('active1');
+//         }
+
+//         if ($(this).scrollTop() > 8700) {
+//             $('.hotel_3').addClass('active1');
+//         } else {
+//             $('.hotel_3').removeClass('active1');
+//         }
+
+//         if ($(this).scrollTop() > 10000) {
+//             $('.hotel_4').addClass('active1');
+//         } else {
+//             $('.hotel_4').removeClass('active1');
+//         }
+
+//         if ($(this).scrollTop() > 11200) {
+//             $('.hotel_5').addClass('active1');
+//         } else {
+//             $('.hotel_5').removeClass('active1');
+//         }
+//     });
+// });
+
 $(document).ready(function () {
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 6100) {
-            $('.hotel_1').addClass('active1');
-        } else {
-            $('.hotel_1').removeClass('active1');
-        }
+        $('.hotel_1').each(function () {
+            var bottom_of_element = $(this).offset().top + $(this).outerHeight() / 2;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-        if ($(this).scrollTop() > 7500) {
-            $('.hotel_2').addClass('active1');
-        } else {
-            $('.hotel_2').removeClass('active1');
-        }
+            if (bottom_of_window > bottom_of_element) {
+                $(this).animate({'opacity': '1'}, 750);
+            }
+        });
 
-        if ($(this).scrollTop() > 8700) {
-            $('.hotel_3').addClass('active1');
-        } else {
-            $('.hotel_3').removeClass('active1');
-        }
+        $('.hotel_2').each(function () {
+            var bottom_of_element = $(this).offset().top + $(this).outerHeight() / 2;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-        if ($(this).scrollTop() > 10000) {
-            $('.hotel_4').addClass('active1');
-        } else {
-            $('.hotel_4').removeClass('active1');
-        }
+            if (bottom_of_window > bottom_of_element) {
+                $(this).animate({'opacity': '1'}, 750);
+            }
+        });
 
-        if ($(this).scrollTop() > 11200) {
-            $('.hotel_5').addClass('active1');
-        } else {
-            $('.hotel_5').removeClass('active1');
-        }
+        $('.hotel_3').each(function () {
+            var bottom_of_element = $(this).offset().top + $(this).outerHeight() / 2;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            if (bottom_of_window > bottom_of_element) {
+                $(this).animate({'opacity': '1'}, 750);
+            }
+        });
+
+        $('.hotel_4').each(function () {
+            var bottom_of_element = $(this).offset().top + $(this).outerHeight() / 2;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            if (bottom_of_window > bottom_of_element) {
+                $(this).animate({'opacity': '1'}, 750);
+            }
+        });
+
+        $('.hotel_5').each(function () {
+            var bottom_of_element = $(this).offset().top + $(this).outerHeight() / 2;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            if (bottom_of_window > bottom_of_element) {
+                $(this).animate({'opacity': '1'}, 750);
+            }
+        });
     });
 });

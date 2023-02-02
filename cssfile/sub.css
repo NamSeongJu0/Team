@@ -4,7 +4,6 @@
 #section {
     width: 100%;
     height: auto;
-    background-color: blueviolet;
 }
 
 #section .container {
@@ -42,7 +41,7 @@
     z-index: 1;
     width: 120px;
     height: 150px;
-    background: url(../subimg/360sky.png) no-repeat 0px 5px;
+    /* background: url(../subimg/360sky.png) no-repeat 0px 5px; */
     display: block;
 }
 
@@ -81,7 +80,7 @@
     padding: 31px 12px 0 0;
     text-align: center;
     display: block;
-    background: url(../subimg/serifu.png) no-repeat 0px 0px;
+    /* background: url(../subimg/serifu.png) no-repeat 0px 0px; */
 }
 
 #section .container #contents_M .section_L .question a span {
@@ -135,6 +134,15 @@
     background-color: #ddd;
 }
 
+#section .section_L .slide1 ul li a {
+    color: #434343;
+}
+
+#section .section_L .slide1 ul li a:hover {
+    color: white;
+    transition: all 0.8s ease;
+}
+
 #section .section_L .slide1 ul li:hover {
     background-color: coral;
     transition: all 0.8s ease;
@@ -171,6 +179,15 @@
     background-color: #ddd;
 }
 
+#section .section_L .slide1_1 ul li a {
+    color: #434343;
+}
+
+#section .section_L .slide1_1 ul li a:hover {
+    color: white;
+    transition: all 0.8s ease;
+}
+
 #section .section_L .slide1_1 ul li:hover {
     background-color: coral;
     transition: all 0.8s ease;
@@ -189,13 +206,21 @@
     align-items: center;
     flex-wrap: wrap;
     box-sizing: border-box;
-    padding: 30px;
+    padding: 15px;
     font-size: 1rem;
     border-radius: 10px;
 }
 
+#section .section_L .request .request_1 a {
+    color: #434343;
+}
+
+#section .section_L .request .request_2 a {
+    color: #434343;
+}
+
 #section .section_L i {
-    padding-right: 15px;
+    padding-right: 5px;
 }
 
 
@@ -251,7 +276,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #000;
+    color: white;
     text-align: center;
     background-color: darkgray;
     opacity: 0.8;
@@ -509,10 +534,12 @@
 
 #Camping .camping .campingintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Camping .camping .campingintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 
@@ -552,10 +579,12 @@
 
 #Bird .bird .birdintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Bird .bird .birdintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 #Bird .bird .birdintro a {
@@ -600,10 +629,12 @@
 
 #Waterfall .waterfall .waterfallintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Waterfall .waterfall .waterfallintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 
@@ -643,10 +674,12 @@
 
 #Nature .nature .natureintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Nature .nature .natureintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 
@@ -686,10 +719,12 @@
 
 #Kayaking .kayaking .kayakingintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Kayaking .kayaking .kayakingintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 
@@ -729,10 +764,12 @@
 
 #Sailing .sailing .sailingintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Sailing .sailing .sailingintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 
@@ -772,10 +809,12 @@
 
 #Aerial .aerial .aerialintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Aerial .aerial .aerialintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 
@@ -815,10 +854,12 @@
 
 #Gallery .gallery .galleryintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Gallery .gallery .galleryintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 
@@ -867,8 +908,6 @@
     align-items: center;
     flex-wrap: wrap;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 1.7s ease;
 }
 
 
@@ -897,6 +936,7 @@
     width: 100%;
     font-size: 1rem;
     text-align: center;
+    color: coral;
 }
 
 .hotel_1 .hotelintro {
@@ -910,6 +950,7 @@
 
 .hotel_1 .hotelintro p {
     font-size: 0.9rem;
+    color: darkgray;
 }
 
 
@@ -923,8 +964,6 @@
     align-items: center;
     flex-wrap: wrap;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 0.8s ease;
 }
 
 .hotel_2 .hotelimg {
@@ -952,6 +991,7 @@
     width: 100%;
     font-size: 1rem;
     text-align: center;
+    color: coral;
 }
 
 .hotel_2 .hotelintro {
@@ -965,6 +1005,7 @@
 
 .hotel_2 .hotelintro p {
     font-size: 0.9rem;
+    color: darkgray;
 }
 
 
@@ -978,8 +1019,6 @@
     align-items: center;
     flex-wrap: wrap;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 0.8s ease;
 }
 
 .hotel_3 .hotelimg {
@@ -1007,6 +1046,7 @@
     width: 100%;
     font-size: 1rem;
     text-align: center;
+    color: coral;
 }
 
 .hotel_3 .hotelintro {
@@ -1020,6 +1060,7 @@
 
 .hotel_3 .hotelintro p {
     font-size: 0.9rem;
+    color: darkgray;
 }
 
 
@@ -1033,8 +1074,6 @@
     align-items: center;
     flex-wrap: wrap;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 0.8s ease;
 }
 
 .hotel_4 .hotelimg {
@@ -1062,6 +1101,7 @@
     width: 100%;
     font-size: 1rem;
     text-align: center;
+    color: coral;
 }
 
 .hotel_4 .hotelintro {
@@ -1075,6 +1115,7 @@
 
 .hotel_4 .hotelintro p {
     font-size: 0.9rem;
+    color: darkgray;
 }
 
 
@@ -1088,8 +1129,6 @@
     align-items: center;
     flex-wrap: wrap;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 0.8s ease;
 }
 
 .hotel_5 .hotelimg {
@@ -1117,6 +1156,7 @@
     width: 100%;
     font-size: 1rem;
     text-align: center;
+    color: coral;
 }
 
 .hotel_5 .hotelintro {
@@ -1130,27 +1170,21 @@
 
 .hotel_5 .hotelintro p {
     font-size: 0.9rem;
+    color: darkgray;
 }
 
 
 /* 미디어 모바일 사이즈 */
 @media (max-width: 767px) {
-
-}
-
-/* 미디어 중간 사이즈 */
-@media (min-width: 768px) and (max-width: 1199px) {
-    /* 섹션 부분 */
+/* 섹션 부분 */
 #section {
     width: 100%;
     height: auto;
-    background-color: blueviolet;
 }
 
 #section .container {
     width: 90%;
     height: auto;
-    background-color: cornflowerblue;
     margin: 0 auto;
 }
 
@@ -1167,7 +1201,7 @@
 #section .container #contents_M .section_L {
     width: 25%;
     height: auto;
-    background-color: chartreuse;
+    background-color: #434343;
     box-sizing: border-box;
     padding: 0 15px;
     text-align: center;
@@ -1182,19 +1216,27 @@
     z-index: 1;
     width: 120px;
     height: 150px;
-    background: url(../subimg/360sky.png) no-repeat 0px 5px;
+    /* background: url(../subimg/360sky.png) no-repeat 0px 5px; */
     display: block;
 }
 
-#section .container #contents_M .section_L h2 {
+#section .container #contents_M .section_L h4 {
     width: 15vw;
     height: auto;
-    background-color: antiquewhite;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 5px;
     margin: 20px auto;
-
 }
+
+#section .container #contents_M .section_L h4 span {
+    color: darkgray;
+}
+
+#section .container #contents_M .section_L h3 {
+    color: coral;
+    font-size: 2vw;
+}
+
 
 #section .container #contents_M .section_L .question {
     position: absolute;
@@ -1213,30 +1255,37 @@
     padding: 31px 12px 0 0;
     text-align: center;
     display: block;
-    background: url(../subimg/serifu.png) no-repeat 0px 0px;
+    /* background: url(../subimg/serifu.png) no-repeat 0px 0px; */
+}
+
+#section .container #contents_M .section_L .question a span {
+    color: coral;
 }
 
 
 /* 왼쪽 p 설명 */
 .section_L .intro {
-    width: 20vw;
+    width: 18vw;
     height: auto;
-    background-color: slateblue;
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 14px;
+    padding: 5px;
     font-size: 1rem;
     text-align: left;
     margin-bottom: 20px;
 }
 
+.section_L .intro span {
+    color: darkgray;
+}
+
 
 /* 왼쪽 슬라이드 slide1 */
 #section .section_L .slide1 {
-    width: 20vw;
+    width: 18vw;
     height: 10vw;
-    margin: 20px auto;
-    background-color: darkred;  
+    margin: 20px auto; 
+    border-radius: 10px;
 }
 
 #section .section_L .slide1 ul {
@@ -1247,73 +1296,75 @@
     justify-content: space-evenly;
     align-items: center;
     box-sizing: border-box;
-    padding: 30px;
+    padding: 5px;
     font-size: 1rem;
-    border-radius: 10px;
 }
 
 #section .section_L .slide1 ul li {
-    width: 30%;
-}
-
-
-/* 왼쪽 슬라이드 slide1_1 */
-#section .section_L .slide1_1 {
-    width: 20vw;
-    height: 10vw;
-    margin: 20px auto;
-    background-color: darkred;
-}
-
-#section .section_L .slide1_1 ul {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 30px;
-    font-size: 1rem;
+    width: 45%;
+    height: 2vw;
+    line-height: 2vw;
+    border: 1px solid;
     border-radius: 10px;
+    background-color: #ddd;
 }
 
-#section .section_L .slide1_1 ul li {
-    width: 30%;
+#section .section_L .slide1 ul li a {
+    color: #434343;
+}
+
+#section .section_L .slide1 ul li a:hover {
+    color: white;
+    transition: all 0.8s ease;
+}
+
+#section .section_L .slide1 ul li:hover {
+    background-color: coral;
+    transition: all 0.8s ease;
+    cursor: pointer;
 }
 
 
 /* 왼쪽 request 부분 */
 #section .section_L .request {
-    width: 20vw;
+    width: 18vw;
     height: 10vw;
+    text-align: left;
     margin: 20px auto;
-    background-color: darkkhaki;
+    background-color: #ddd;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 5px;
     font-size: 1rem;
-    text-align: left;
+    border-radius: 10px;
+}
+
+#section .section_L .request_1,
+#section .section_L .request_2 {
+    width: 90%;
+} 
+
+#section .section_L .request .request_1 a {
+    color: #434343;
+}
+
+#section .section_L .request .request_2 a {
+    color: #434343;
 }
 
 #section .section_L i {
-    padding-right: 15px;
+    padding-right: 5px;
 }
-
-
-
-
-
-
 
 
 /* 섹션 오른쪽 */
 #section .container #contents_M .section_R {
     width: 75%;
     height: auto;
-    background-color: chocolate;
+    background-color: white;
     box-sizing: border-box;
     padding: 0 15px;
 }
@@ -1322,7 +1373,7 @@
 /* 이미지 전환 슬라이더 */
 #slidewrap {
     width: 87%;
-    height: 500px;
+    height: 300px;
     margin: 50px auto;
     position: relative;
     overflow: hidden;
@@ -1334,7 +1385,7 @@
 
 #slidewrap .slide li {
     width: 1100px;
-    height: 500px;
+    height: 300px;
     float: left;
 }
 
@@ -1361,13 +1412,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #000;
+    color: white;
     text-align: center;
-    mix-blend-mode: inherit;
-    backdrop-filter: blur(4px);
-    background-color: rgba(255, 255, 255, 0.5);
-    opacity: 0.5;
+    background-color: darkgray;
+    opacity: 0.8;
     border-radius: 10px;
+}
+
+#slidewrap a p:hover {
+    background-color: coral;
+    transition: all 0.8s ease;
+    color: white;
 }
 
 #slidewrap span {
@@ -1377,7 +1432,6 @@
     font-size: 38px;
     color: #fff;
     line-height: 40px;
-
     background: rgba(0, 0, 0, 0.6);
     cursor: pointer;
     height: 50px;
@@ -1411,7 +1465,7 @@
 #Active .active {
     width: 100%;
     height: auto;
-    background-color: darkgray;
+    background-color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -1421,7 +1475,1161 @@
     font-size: 3rem;
     height: 3vw;
     font-weight: bold;
-    color: burlywood;
+    color: #434343;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#Active .active .image {
+    width: 100%;
+    height: 265vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+#Active .active .image .img1 {
+    width: 53vw;
+    height: 30vw;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/camping.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#Active .active .image .img2 {
+    width: 53vw;
+    height: 30vw;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/bird.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#Active .active .image .img3 {
+    width: 53vw;
+    height: 30vw;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Palau_19_Waterfall_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#Active .active .image .img4 {
+    width: 53vw;
+    height: 30vw;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/IMG_1536.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#Active .active .image .img5 {
+    width: 53vw;
+    height: 30vw;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Kayak.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#Active .active .image .img6 {
+    width: 53vw;
+    height: 30vw;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Palau_19_Canoe_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#Active .active .image .img7 {
+    width: 53vw;
+    height: 30vw;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Palau_19_PMA_14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#Active .active .image .img8 {
+    width: 53vw;
+    height: 30vw;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Photo-29-05-2017-1-05-42-AM.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#Active .active .image h3 {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#Active .active .image a {
+    width: 18vw;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 3px;
+    border-radius: 30px;
+}
+
+#Active .active .image a:hover {
+    background-color: coral;
+    transition: all 0.8s ease;
+}
+
+
+/* Active 설명 */
+#Camping {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+#Camping .camping {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Camping .camping .campingimg {
+    width: 85%;
+    height: 35vw;
+}
+
+#Camping .camping .campingimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Camping .camping .campingintro {
+    width: 85%;
+    height: 30%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#Camping .camping .campingintro h2 {
+    font-size: 1.7rem;
+    color: coral
+}
+
+#Camping .camping .campingintro p {
+    font-size: 1.2rem;
+    color: darkgray;
+}
+
+
+/* bird 부분 */
+#Bird {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+#Bird .bird {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+#Bird .bird .birdimg {
+    width: 85%;
+    height: 21vw;
+}
+
+#Bird .bird .birdimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Bird .bird .birdintro {
+    width: 85%;
+    height: 20%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#Bird .bird .birdintro h2 {
+    font-size: 1.7rem;
+    color: coral
+}
+
+#Bird .bird .birdintro p {
+    font-size: 1.2rem;
+    color: darkgray;
+}
+
+#Bird .bird .birdintro a {
+    font-size: 0.85rem;
+    color: lightskyblue;
+}
+
+
+/* Waterfall */
+#Waterfall {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+#Waterfall .waterfall {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Waterfall .waterfall .waterfallimg {
+    width: 85%;
+    height: 27vw;
+}
+
+#Waterfall .waterfall .waterfallimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Waterfall .waterfall .waterfallintro {
+    width: 85%;
+    height: 30%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#Waterfall .waterfall .waterfallintro h2 {
+    font-size: 1.7rem;
+    color: coral
+}
+
+#Waterfall .waterfall .waterfallintro p {
+    font-size: 1.2rem;
+    color: darkgray;
+}
+
+
+/* Nature */
+#Nature {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+#Nature .nature {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+#Nature .nature .natureimg {
+    width: 85%;
+    height: 32vw;
+}
+
+#Nature .nature .natureimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Nature .nature .natureintro {
+    width: 85%;
+    height: 30%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#Nature .nature .natureintro h2 {
+    font-size: 1.7rem;
+    color: coral
+}
+
+#Nature .nature .natureintro p {
+    font-size: 1.2rem;
+    color: darkgray;
+}
+
+
+/* Kayak */
+#Kayaking {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+#Kayaking .kayaking {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Kayaking .kayaking .kayakingimg {
+    width: 85%;
+    height: 33vw;
+}
+
+#Kayaking .kayaking .kayakingimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Kayaking .kayaking .kayakingintro {
+    width: 85%;
+    height: 40%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#Kayaking .kayaking .kayakingintro h2 {
+    font-size: 1.7rem;
+    color: coral
+}
+
+#Kayaking .kayaking .kayakingintro p {
+    font-size: 1.2rem;
+    color: darkgray;
+}
+
+
+/* Sailing */
+#Sailing {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+#Sailing .sailing {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+#Sailing .sailing .sailingimg {
+    width: 85%;
+    height: 32vw;
+}
+
+#Sailing .sailing .sailingimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Sailing .sailing .sailingintro {
+    width: 85%;
+    height: 20%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#Sailing .sailing .sailingintro h2 {
+    font-size: 1.7rem;
+    color: coral
+}
+
+#Sailing .sailing .sailingintro p {
+    font-size: 1.2rem;
+    color: darkgray;
+}
+
+
+/* Aerial */
+#Aerial {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+#Aerial .aerial {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Aerial .aerial .aerialimg {
+    width: 85%;
+    height: 30vw;
+}
+
+#Aerial .aerial .aerialimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Aerial .aerial .aerialintro {
+    width: 85%;
+    height: 20%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#Aerial .aerial .aerialintro h2 {
+    font-size: 1.7rem;
+    color: coral
+}
+
+#Aerial .aerial .aerialintro p {
+    font-size: 1.2rem;
+    color: darkgray;
+}
+
+
+/* Gallery */
+#Gallery {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+#Gallery .gallery {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+#Gallery .gallery .galleryimg {
+    width: 85%;
+    height: 32vw;
+}
+
+#Gallery .gallery .galleryimg img {
+    width: 100%;
+    height: 100%;
+}
+
+#Gallery .gallery .galleryintro {
+    width: 85%;
+    height: 30%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#Gallery .gallery .galleryintro h2 {
+    font-size: 1.7rem;
+    color: coral
+}
+
+#Gallery .gallery .galleryintro p {
+    font-size: 1.2rem;
+    color: darkgray;
+}
+
+
+/* Hotel 부분 */
+#Hotel {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+#Hotel .hotel {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+#Hotel .hotel h1 {
+    font-size: 3rem;
+    height: 3vw;
+    font-weight: bold;
+    color: #434343;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* 호텔 이미지 + 설명 */
+
+/* 호텔 active 효과 */
+#Hotel .hotel .hotel_1.active1,
+#Hotel .hotel .hotel_2.active1,
+#Hotel .hotel .hotel_3.active1,
+#Hotel .hotel .hotel_4.active1,
+#Hotel .hotel .hotel_5.active1 {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+/* 호텔 1 */
+#Hotel .hotel .hotel_1 {
+    width: 100%;
+    height: 70vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(20%);
+    transition: all 1.7s ease;
+}
+
+
+.hotel_1 .hotelimg {
+    width: 20vw;
+    height: 33vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.hotel_1 .hotelimg_1 {
+    width: 100%;
+    height: 17vw;
+}
+
+.hotel_1 .hotelimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hotel_1 h5 {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: coral;
+}
+
+.hotel_1 .hotelintro {
+    width: 100%;
+    height: 11vw;
+    line-height: 1.7;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.hotel_1 .hotelintro p {
+    font-size: 1rem;
+    color: darkgray;
+}
+
+
+/* 호텔2 */
+#Hotel .hotel .hotel_2 {
+    width: 100%;
+    height: 70vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(20%);
+    transition: all 0.8s ease;
+}
+
+.hotel_2 .hotelimg {
+    width: 20vw;
+    height: 33vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.hotel_2 .hotelimg_1 {
+    width: 100%;
+    height: 17vw;
+}
+
+.hotel_2 .hotelimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hotel_2 h5 {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: coral;
+}
+
+.hotel_2 .hotelintro {
+    width: 100%;
+    height: 11vw;
+    line-height: 1.7;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.hotel_2 .hotelintro p {
+    font-size: 1rem;
+    color: darkgray;
+}
+
+
+/* 호텔3 */
+#Hotel .hotel .hotel_3 {
+    width: 100%;
+    height: 70vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(20%);
+    transition: all 0.8s ease;
+}
+
+.hotel_3 .hotelimg {
+    width: 20vw;
+    height: 33vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.hotel_3 .hotelimg_1 {
+    width: 100%;
+    height: 17vw;
+}
+
+.hotel_3 .hotelimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hotel_3 h5 {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: coral;
+}
+
+.hotel_3 .hotelintro {
+    width: 100%;
+    height: 11vw;
+    line-height: 1.7;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.hotel_3 .hotelintro p {
+    font-size: 1rem;
+    color: darkgray;
+}
+
+
+/* 호텔4 */
+#Hotel .hotel .hotel_4 {
+    width: 100%;
+    height: 70vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(20%);
+    transition: all 0.8s ease;
+}
+
+.hotel_4 .hotelimg {
+    width: 20vw;
+    height: 33vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.hotel_4 .hotelimg_1 {
+    width: 100%;
+    height: 17vw;
+}
+
+.hotel_4 .hotelimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hotel_4 h5 {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: coral;
+}
+
+.hotel_4 .hotelintro {
+    width: 100%;
+    height: 11vw;
+    line-height: 1.7;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.hotel_4 .hotelintro p {
+    font-size: 1rem;
+    color: darkgray;
+}
+
+
+/* 호텔5 */
+#Hotel .hotel .hotel_5 {
+    width: 100%;
+    height: 70vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(20%);
+    transition: all 0.8s ease;
+}
+
+.hotel_5 .hotelimg {
+    width: 20vw;
+    height: 33vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.hotel_5 .hotelimg_1 {
+    width: 100%;
+    height: 17vw;
+}
+
+.hotel_5 .hotelimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hotel_5 h5 {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: coral;
+}
+
+.hotel_5 .hotelintro {
+    width: 100%;
+    height: 11vw;
+    line-height: 1.7;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.hotel_5 .hotelintro p {
+    font-size: 1rem;
+    color: darkgray;
+}
+}
+
+/* 미디어 중간 사이즈 */
+@media (min-width: 768px) and (max-width: 1199px) {
+/* 섹션 부분 */
+#section {
+    width: 100%;
+    height: auto;
+}
+
+#section .container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#section .container #contents_M {
+    width: 100%;
+    height: auto;
+    background-color: darksalmon;
+    position: relative; 
+    display: flex;
+}
+
+
+/* 섹션 왼쪽 */
+#section .container #contents_M .section_L {
+    width: 25%;
+    height: auto;
+    background-color: #434343;
+    box-sizing: border-box;
+    padding: 0 15px;
+    text-align: center;
+    position: relative;
+    border-right: 1px dashed lightgray;
+}
+
+#section .container #contents_M .section_L h1 {
+    position: absolute;
+    top: 7px;
+    right: -76px;
+    z-index: 1;
+    width: 120px;
+    height: 150px;
+    /* background: url(../subimg/360sky.png) no-repeat 0px 5px; */
+    display: block;
+}
+
+#section .container #contents_M .section_L h4 {
+    width: 15vw;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+#section .container #contents_M .section_L h4 span {
+    color: darkgray;
+}
+
+#section .container #contents_M .section_L h3 {
+    color: coral;
+    font-size: 2vw;
+}
+
+
+#section .container #contents_M .section_L .question {
+    position: absolute;
+    top: -3px;
+    right: -125px;
+    width: 81px;
+    height: 81px;
+    z-index: 1;
+    display: block;
+}
+
+#section .container #contents_M .section_L .question a {
+    width: 100%;
+    height: 63%;
+    font-size: 0.7rem;
+    padding: 31px 12px 0 0;
+    text-align: center;
+    display: block;
+    /* background: url(../subimg/serifu.png) no-repeat 0px 0px; */
+}
+
+#section .container #contents_M .section_L .question a span {
+    color: coral;
+}
+
+
+/* 왼쪽 p 설명 */
+.section_L .intro {
+    width: 18vw;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.section_L .intro span {
+    color: darkgray;
+}
+
+
+/* 왼쪽 슬라이드 slide1 */
+#section .section_L .slide1 {
+    width: 18vw;
+    height: 10vw;
+    margin: 20px auto; 
+    border-radius: 10px;
+}
+
+#section .section_L .slide1 ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+#section .section_L .slide1 ul li {
+    width: 45%;
+    height: 2vw;
+    line-height: 2vw;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #ddd;
+}
+
+#section .section_L .slide1 ul li a {
+    color: #434343;
+}
+
+#section .section_L .slide1 ul li a:hover {
+    color: white;
+    transition: all 0.8s ease;
+}
+
+#section .section_L .slide1 ul li:hover {
+    background-color: coral;
+    transition: all 0.8s ease;
+    cursor: pointer;
+}
+
+
+/* 왼쪽 request 부분 */
+#section .section_L .request {
+    width: 18vw;
+    height: 10vw;
+    text-align: left;
+    margin: 20px auto;
+    background-color: #ddd;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+#section .section_L .request_1,
+#section .section_L .request_2 {
+    width: 90%;
+} 
+
+#section .section_L .request .request_1 a {
+    color: #434343;
+}
+
+#section .section_L .request .request_2 a {
+    color: #434343;
+}
+
+#section .section_L i {
+    padding-right: 5px;
+}
+
+
+/* 섹션 오른쪽 */
+#section .container #contents_M .section_R {
+    width: 75%;
+    height: auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+
+/* 이미지 전환 슬라이더 */
+#slidewrap {
+    width: 87%;
+    height: 300px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#slidewrap .slide {
+    width: 3300px;
+}
+
+#slidewrap .slide li {
+    width: 1100px;
+    height: 300px;
+    float: left;
+}
+
+#slidewrap .slide li img {
+    width: 100%;
+    height: 100%;
+}
+
+#slidewrap a {
+    width: 15vw;
+    height: 3vw;
+    line-height: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#slidewrap a p {
+    width: 15vw;
+    height: 3vw;
+    line-height: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: darkgray;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+#slidewrap a p:hover {
+    background-color: coral;
+    transition: all 0.8s ease;
+    color: white;
+}
+
+#slidewrap span {
+    position: absolute;
+    top: 50%;
+    display: block;
+    font-size: 38px;
+    color: #fff;
+    line-height: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    height: 50px;
+    transform: translateY(-50%);
+}
+
+#slidewrap span:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+#slidewrap .prev {
+    left: 0;
+    border-radius: 0 10px 10px 0px;
+    padding: 12px 8px 0 2px;
+}
+
+#slidewrap .next {
+    right: 0;
+    border-radius: 10px 0px 0px 10px;
+    padding: 12px 2px 0 8px;
+}
+
+
+/* Active */
+#Active {
+    width: 100%;
+    height: auto;
+}
+
+#Active .active {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Active .active h1 {
+    font-size: 3rem;
+    height: 3vw;
+    font-weight: bold;
+    color: #434343;
     text-align: center;
     text-transform: uppercase;
 }
@@ -1433,7 +2641,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    background-color: aqua;
+    background-color: white;
     margin-bottom: 60px;
 }
 
@@ -1448,7 +2656,7 @@
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 5px;
     border-radius: 15px;
 }
 
@@ -1464,7 +2672,7 @@
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 5px;
     border-radius: 15px;
 }
 
@@ -1479,7 +2687,7 @@
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 5px;
     border-radius: 15px;
 }
 
@@ -1494,7 +2702,7 @@
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 5px;
     border-radius: 15px;
 }
 
@@ -1509,7 +2717,7 @@
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 5px;
     border-radius: 15px;
 }
 
@@ -1524,7 +2732,7 @@
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 5px;
     border-radius: 15px;
 }
 
@@ -1539,7 +2747,7 @@
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 5px;
     border-radius: 15px;
 }
 
@@ -1554,7 +2762,7 @@
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 5px;
     border-radius: 15px;
 }
 
@@ -1570,8 +2778,13 @@
     text-align: center;
     font-size: 1rem;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 3px;
     border-radius: 30px;
+}
+
+#Active .active .image a:hover {
+    background-color: coral;
+    transition: all 0.8s ease;
 }
 
 
@@ -1579,7 +2792,7 @@
 #Camping {
     width: 100%;
     height: auto;
-    background-color: aquamarine;
+    background-color: white;
     margin-bottom: 60px;
 }
 
@@ -1604,17 +2817,19 @@
 #Camping .camping .campingintro {
     width: 45%;
     height: 30%;
-    background-color: darkgreen;
+    background-color: white;
     box-sizing: border-box;
     padding: 10px;
 }
 
 #Camping .camping .campingintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Camping .camping .campingintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 
@@ -1622,7 +2837,7 @@
 #Bird {
     width: 100%;
     height: auto;
-    background-color: aquamarine;
+    background-color: white;
     margin-bottom: 60px;
 }
 
@@ -1647,17 +2862,19 @@
 #Bird .bird .birdintro {
     width: 45%;
     height: 20%;
-    background-color: darkgreen;
+    background-color: white;
     box-sizing: border-box;
     padding: 10px;
 }
 
 #Bird .bird .birdintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Bird .bird .birdintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 #Bird .bird .birdintro a {
@@ -1670,7 +2887,7 @@
 #Waterfall {
     width: 100%;
     height: auto;
-    background-color: aquamarine;
+    background-color: white;
     margin-bottom: 60px;
 }
 
@@ -1695,17 +2912,19 @@
 #Waterfall .waterfall .waterfallintro {
     width: 45%;
     height: 30%;
-    background-color: darkgreen;
+    background-color: white;
     box-sizing: border-box;
     padding: 10px;
 }
 
 #Waterfall .waterfall .waterfallintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Waterfall .waterfall .waterfallintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 
@@ -1713,7 +2932,7 @@
 #Nature {
     width: 100%;
     height: auto;
-    background-color: aquamarine;
+    background-color: white;
     margin-bottom: 60px;
 }
 
@@ -1738,17 +2957,19 @@
 #Nature .nature .natureintro {
     width: 45%;
     height: 30%;
-    background-color: darkgreen;
+    background-color: white;
     box-sizing: border-box;
     padding: 10px;
 }
 
 #Nature .nature .natureintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Nature .nature .natureintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 
@@ -1756,7 +2977,7 @@
 #Kayaking {
     width: 100%;
     height: auto;
-    background-color: aquamarine;
+    background-color: white;
     margin-bottom: 60px;
 }
 
@@ -1781,17 +3002,19 @@
 #Kayaking .kayaking .kayakingintro {
     width: 45%;
     height: 40%;
-    background-color: darkgreen;
+    background-color: white;
     box-sizing: border-box;
     padding: 10px;
 }
 
 #Kayaking .kayaking .kayakingintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Kayaking .kayaking .kayakingintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 
@@ -1799,7 +3022,7 @@
 #Sailing {
     width: 100%;
     height: auto;
-    background-color: aquamarine;
+    background-color: white;
     margin-bottom: 60px;
 }
 
@@ -1824,17 +3047,19 @@
 #Sailing .sailing .sailingintro {
     width: 45%;
     height: 20%;
-    background-color: darkgreen;
+    background-color: white;
     box-sizing: border-box;
     padding: 10px;
 }
 
 #Sailing .sailing .sailingintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Sailing .sailing .sailingintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 
@@ -1842,7 +3067,7 @@
 #Aerial {
     width: 100%;
     height: auto;
-    background-color: aquamarine;
+    background-color: white;
     margin-bottom: 60px;
 }
 
@@ -1867,17 +3092,19 @@
 #Aerial .aerial .aerialintro {
     width: 45%;
     height: 20%;
-    background-color: darkgreen;
+    background-color: white;
     box-sizing: border-box;
     padding: 10px;
 }
 
 #Aerial .aerial .aerialintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Aerial .aerial .aerialintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 
@@ -1885,7 +3112,7 @@
 #Gallery {
     width: 100%;
     height: auto;
-    background-color: aquamarine;
+    background-color: white;
     margin-bottom: 60px;
 }
 
@@ -1910,17 +3137,19 @@
 #Gallery .gallery .galleryintro {
     width: 45%;
     height: 30%;
-    background-color: darkgreen;
+    background-color: white;
     box-sizing: border-box;
     padding: 10px;
 }
 
 #Gallery .gallery .galleryintro h2 {
     font-size: 1.7rem;
+    color: coral
 }
 
 #Gallery .gallery .galleryintro p {
     font-size: 1.2rem;
+    color: darkgray;
 }
 
 
@@ -1928,20 +3157,20 @@
 #Hotel {
     width: 100%;
     height: auto;
-    background-color: cornsilk;
+    background-color: white;
 }
 
 #Hotel .hotel {
     width: 100%;
     height: auto;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 #Hotel .hotel h1 {
     font-size: 3rem;
     height: 3vw;
     font-weight: bold;
-    color: burlywood;
+    color: #434343;
     text-align: center;
     text-transform: uppercase;
 }
@@ -1962,8 +3191,8 @@
 /* 호텔 1 */
 #Hotel .hotel .hotel_1 {
     width: 100%;
-    height: 60vw;
-    background-color: greenyellow;
+    height: 70vw;
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -1976,8 +3205,8 @@
 
 .hotel_1 .hotelimg {
     width: 20vw;
-    height: 27vw;
-    background-color: cornflowerblue;
+    height: 33vw;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -1986,7 +3215,7 @@
 
 .hotel_1 .hotelimg_1 {
     width: 100%;
-    height: 15vw;
+    height: 17vw;
 }
 
 .hotel_1 .hotelimg img {
@@ -1997,29 +3226,31 @@
 
 .hotel_1 h5 {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
+    color: coral;
 }
 
 .hotel_1 .hotelintro {
     width: 100%;
-    height: 4vw;
+    height: 11vw;
     line-height: 1.7;
-    background-color: cornsilk;
+    background-color: white;
     box-sizing: border-box;
     padding: 10px;
 }
 
 .hotel_1 .hotelintro p {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    color: darkgray;
 }
 
 
 /* 호텔2 */
 #Hotel .hotel .hotel_2 {
     width: 100%;
-    height: 60vw;
-    background-color: cadetblue;
+    height: 70vw;
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -2031,8 +3262,8 @@
 
 .hotel_2 .hotelimg {
     width: 20vw;
-    height: 27vw;
-    background-color: cornflowerblue;
+    height: 33vw;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -2041,7 +3272,7 @@
 
 .hotel_2 .hotelimg_1 {
     width: 100%;
-    height: 15vw;
+    height: 17vw;
 }
 
 .hotel_2 .hotelimg img {
@@ -2052,29 +3283,31 @@
 
 .hotel_2 h5 {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
+    color: coral;
 }
 
 .hotel_2 .hotelintro {
     width: 100%;
-    height: 4vw;
+    height: 11vw;
     line-height: 1.7;
-    background-color: cornsilk;
+    background-color: white;
     box-sizing: border-box;
     padding: 10px;
 }
 
 .hotel_2 .hotelintro p {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    color: darkgray;
 }
 
 
 /* 호텔3 */
 #Hotel .hotel .hotel_3 {
     width: 100%;
-    height: 60vw;
-    background-color: rosybrown;
+    height: 70vw;
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -2086,8 +3319,8 @@
 
 .hotel_3 .hotelimg {
     width: 20vw;
-    height: 27vw;
-    background-color: cornflowerblue;
+    height: 33vw;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -2096,7 +3329,7 @@
 
 .hotel_3 .hotelimg_1 {
     width: 100%;
-    height: 15vw;
+    height: 17vw;
 }
 
 .hotel_3 .hotelimg img {
@@ -2107,29 +3340,31 @@
 
 .hotel_3 h5 {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
+    color: coral;
 }
 
 .hotel_3 .hotelintro {
     width: 100%;
-    height: 4vw;
+    height: 11vw;
     line-height: 1.7;
-    background-color: cornsilk;
+    background-color: white;
     box-sizing: border-box;
     padding: 10px;
 }
 
 .hotel_3 .hotelintro p {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    color: darkgray;
 }
 
 
 /* 호텔4 */
 #Hotel .hotel .hotel_4 {
     width: 100%;
-    height: 60vw;
-    background-color: yellow;
+    height: 70vw;
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -2141,8 +3376,8 @@
 
 .hotel_4 .hotelimg {
     width: 20vw;
-    height: 27vw;
-    background-color: cornflowerblue;
+    height: 33vw;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -2151,7 +3386,7 @@
 
 .hotel_4 .hotelimg_1 {
     width: 100%;
-    height: 15vw;
+    height: 17vw;
 }
 
 .hotel_4 .hotelimg img {
@@ -2162,29 +3397,31 @@
 
 .hotel_4 h5 {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
+    color: coral;
 }
 
 .hotel_4 .hotelintro {
     width: 100%;
-    height: 4vw;
+    height: 11vw;
     line-height: 1.7;
-    background-color: cornsilk;
+    background-color: white;
     box-sizing: border-box;
     padding: 10px;
 }
 
 .hotel_4 .hotelintro p {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    color: darkgray;
 }
 
 
 /* 호텔5 */
 #Hotel .hotel .hotel_5 {
     width: 100%;
-    height: 60vw;
-    background-color: navajowhite;
+    height: 70vw;
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -2196,8 +3433,8 @@
 
 .hotel_5 .hotelimg {
     width: 20vw;
-    height: 27vw;
-    background-color: cornflowerblue;
+    height: 33vw;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -2206,7 +3443,7 @@
 
 .hotel_5 .hotelimg_1 {
     width: 100%;
-    height: 15vw;
+    height: 17vw;
 }
 
 .hotel_5 .hotelimg img {
@@ -2217,21 +3454,23 @@
 
 .hotel_5 h5 {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
+    color: coral;
 }
 
 .hotel_5 .hotelintro {
     width: 100%;
-    height: 4vw;
+    height: 11vw;
     line-height: 1.7;
-    background-color: cornsilk;
+    background-color: white;
     box-sizing: border-box;
     padding: 10px;
 }
 
 .hotel_5 .hotelintro p {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    color: darkgray;
 }
 }
 

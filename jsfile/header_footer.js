@@ -1,18 +1,51 @@
 // header active 효과
 $(function () {
-    $(window).resize(function () {
+
+    function nsj() {
         if (window.innerWidth > 1199) {
             $('.spMenu_btn').hide();
             $('.nav, .nav_R .navL').show();
             $("#side-nav").hide();
+            $('header .sns').show();
         }
         else {
             $('.spMenu_btn').show();
             $('.nav, .nav_R .navL').hide();
+            $('header .sns').hide();
         }
+    } 
+
+    nsj();
+
+    $(window).resize(function () {
+        nsj();
     });
 });
 
+
+// 미디어 중간, 모바일 사이즈 메뉴바
+// 버튼 클릭 시 왼쪽에서 메뉴바 나오는 효과
+$(function () {
+
+    $('.spMenu_btn').click(function () {
+
+        $("#side-nav").css("display", "block");
+
+        $("#side-nav").toggleClass("wow");
+
+        if ($("#side-nav").hasClass("wow")) {
+
+            $("#side-nav").animate({ "left": "0px" }, '187%');
+
+        } else {
+
+            $("#side-nav").animate({ "left": "-10000px" }, '100%');
+
+        }
+
+    });
+
+});
 
 // product, activities 슬라이드 효과
 
@@ -35,7 +68,7 @@ const contentEm = document.querySelectorAll("header");
 // 움직임 효과
 $(function () {
     $('header').mousemove(function (e) {
-        gsap.to(".cursor", { duration: 0.4, left: e.pageX, top: e.pageY });
+        gsap.to(".cursor", { duration: 0.4, left: e.clientX, top: e.clientY });
     });
 
     $('header').mouseover(function (e) {
@@ -54,10 +87,10 @@ $(function () {
     });
 
     // 제목에 마우스 오버 했을 때
-    $(".sns ul li").hover(function () {
+    $("header .sns ul li").hover(function () {
         $(this).children().css({ 'color': 'silver', 'transition': 'all 0.5s ease-in' });
     }, function () {
-        $(this).children().css({ 'color': 'white', 'transition': 'all 0.5s ease-in' });
+        $(this).children().css({ 'color': '#434343', 'transition': 'all 0.5s ease-in' });
     });
 });
 
