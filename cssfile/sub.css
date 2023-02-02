@@ -1203,7 +1203,7 @@
     height: auto;
     background-color: #434343;
     box-sizing: border-box;
-    padding: 0 15px;
+    padding: 0 5px;
     text-align: center;
     position: relative;
     border-right: 1px dashed lightgray;
@@ -1269,7 +1269,7 @@
     height: auto;
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 1px;
     font-size: 1rem;
     text-align: left;
     margin-bottom: 20px;
@@ -1282,8 +1282,8 @@
 
 /* 왼쪽 슬라이드 slide1 */
 #section .section_L .slide1 {
-    width: 18vw;
-    height: 10vw;
+    width: 20vw;
+    height: 35vw;
     margin: 20px auto; 
     border-radius: 10px;
 }
@@ -1292,18 +1292,18 @@
     width: 100%;
     height: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 1px;
     font-size: 1rem;
 }
 
 #section .section_L .slide1 ul li {
-    width: 45%;
-    height: 2vw;
-    line-height: 2vw;
+    width: 75%;
+    height: 3vw;
+    line-height: 3vw;
     border: 1px solid;
     border-radius: 10px;
     background-color: #ddd;
@@ -1327,8 +1327,8 @@
 
 /* 왼쪽 request 부분 */
 #section .section_L .request {
-    width: 18vw;
-    height: 10vw;
+    width: 20vw;
+    height: 30vw;
     text-align: left;
     margin: 20px auto;
     background-color: #ddd;
@@ -1337,7 +1337,7 @@
     align-items: center;
     flex-wrap: wrap;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 4px;
     font-size: 1rem;
     border-radius: 10px;
 }
@@ -1366,7 +1366,7 @@
     height: auto;
     background-color: white;
     box-sizing: border-box;
-    padding: 0 15px;
+    padding: 0 5px;
 }
 
 
@@ -1472,8 +1472,8 @@
 }
 
 #Active .active h1 {
-    font-size: 3rem;
-    height: 3vw;
+    font-size: 4.5rem;
+    height: 5vw;
     font-weight: bold;
     color: #434343;
     text-align: center;
@@ -1482,7 +1482,7 @@
 
 #Active .active .image {
     width: 100%;
-    height: 265vw;
+    height: 415vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -1493,12 +1493,12 @@
 
 #Active .active .image .img1 {
     width: 53vw;
-    height: 30vw;
+    height: 48vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/camping.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
@@ -1508,13 +1508,13 @@
 
 #Active .active .image .img2 {
     width: 53vw;
-    height: 30vw;
+    height: 48vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/bird.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
@@ -1524,12 +1524,12 @@
 
 #Active .active .image .img3 {
     width: 53vw;
-    height: 30vw;
+    height: 48vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Palau_19_Waterfall_3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
@@ -1539,12 +1539,12 @@
 
 #Active .active .image .img4 {
     width: 53vw;
-    height: 30vw;
+    height: 48vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/IMG_1536.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
@@ -1554,12 +1554,12 @@
 
 #Active .active .image .img5 {
     width: 53vw;
-    height: 30vw;
+    height: 48vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Kayak.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
@@ -1569,12 +1569,12 @@
 
 #Active .active .image .img6 {
     width: 53vw;
-    height: 30vw;
+    height: 48vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Palau_19_Canoe_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
@@ -1584,12 +1584,12 @@
 
 #Active .active .image .img7 {
     width: 53vw;
-    height: 30vw;
+    height: 48vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Palau_19_PMA_14.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
@@ -1599,12 +1599,12 @@
 
 #Active .active .image .img8 {
     width: 53vw;
-    height: 30vw;
+    height: 48vw;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../subimg/Photo-29-05-2017-1-05-42-AM.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
@@ -1614,7 +1614,7 @@
 
 #Active .active .image h3 {
     margin-bottom: 5px;
-    font-size: 1.2rem;
+    font-size: 3.5rem;
     color: white;
 }
 
@@ -1699,7 +1699,7 @@
 
 #Bird .bird .birdimg {
     width: 85%;
-    height: 21vw;
+    height: 35vw;
 }
 
 #Bird .bird .birdimg img {
@@ -1750,7 +1750,7 @@
 
 #Waterfall .waterfall .waterfallimg {
     width: 85%;
-    height: 27vw;
+    height: 35vw;
 }
 
 #Waterfall .waterfall .waterfallimg img {
@@ -1796,7 +1796,7 @@
 
 #Nature .nature .natureimg {
     width: 85%;
-    height: 32vw;
+    height: 35vw;
 }
 
 #Nature .nature .natureimg img {
@@ -1842,7 +1842,7 @@
 
 #Kayaking .kayaking .kayakingimg {
     width: 85%;
-    height: 33vw;
+    height: 35vw;
 }
 
 #Kayaking .kayaking .kayakingimg img {
@@ -1888,7 +1888,7 @@
 
 #Sailing .sailing .sailingimg {
     width: 85%;
-    height: 32vw;
+    height: 35vw;
 }
 
 #Sailing .sailing .sailingimg img {
@@ -1934,7 +1934,7 @@
 
 #Aerial .aerial .aerialimg {
     width: 85%;
-    height: 30vw;
+    height: 35vw;
 }
 
 #Aerial .aerial .aerialimg img {
@@ -1980,7 +1980,7 @@
 
 #Gallery .gallery .galleryimg {
     width: 85%;
-    height: 32vw;
+    height: 35vw;
 }
 
 #Gallery .gallery .galleryimg img {
@@ -2017,12 +2017,15 @@
 #Hotel .hotel {
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
 }
 
 #Hotel .hotel h1 {
-    font-size: 3rem;
-    height: 3vw;
+    font-size: 4.5rem;
+    height: 5vw;
     font-weight: bold;
     color: #434343;
     text-align: center;
@@ -2031,35 +2034,22 @@
 
 
 /* 호텔 이미지 + 설명 */
-
-/* 호텔 active 효과 */
-#Hotel .hotel .hotel_1.active1,
-#Hotel .hotel .hotel_2.active1,
-#Hotel .hotel .hotel_3.active1,
-#Hotel .hotel .hotel_4.active1,
-#Hotel .hotel .hotel_5.active1 {
-    opacity: 1;
-    transform: translateY(0%);
-}
-
 /* 호텔 1 */
 #Hotel .hotel .hotel_1 {
     width: 100%;
-    height: 70vw;
+    height: 345vw;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 1.7s ease;
 }
 
 
 .hotel_1 .hotelimg {
-    width: 20vw;
-    height: 33vw;
+    width: 55vw;
+    height: 54vw;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -2069,7 +2059,7 @@
 
 .hotel_1 .hotelimg_1 {
     width: 100%;
-    height: 17vw;
+    height: 34vw;
 }
 
 .hotel_1 .hotelimg img {
@@ -2103,20 +2093,18 @@
 /* 호텔2 */
 #Hotel .hotel .hotel_2 {
     width: 100%;
-    height: 70vw;
+    height: 345vw;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 0.8s ease;
 }
 
 .hotel_2 .hotelimg {
-    width: 20vw;
-    height: 33vw;
+    width: 55vw;
+    height: 54vw;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -2126,7 +2114,7 @@
 
 .hotel_2 .hotelimg_1 {
     width: 100%;
-    height: 17vw;
+    height: 34vw;
 }
 
 .hotel_2 .hotelimg img {
@@ -2160,20 +2148,18 @@
 /* 호텔3 */
 #Hotel .hotel .hotel_3 {
     width: 100%;
-    height: 70vw;
+    height: 345vw;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 0.8s ease;
 }
 
 .hotel_3 .hotelimg {
-    width: 20vw;
-    height: 33vw;
+    width: 55vw;
+    height: 54vw;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -2183,7 +2169,7 @@
 
 .hotel_3 .hotelimg_1 {
     width: 100%;
-    height: 17vw;
+    height: 34vw;
 }
 
 .hotel_3 .hotelimg img {
@@ -2217,20 +2203,18 @@
 /* 호텔4 */
 #Hotel .hotel .hotel_4 {
     width: 100%;
-    height: 70vw;
+    height: 345vw;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 0.8s ease;
 }
 
 .hotel_4 .hotelimg {
-    width: 20vw;
-    height: 33vw;
+    width: 55vw;
+    height: 54vw;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -2240,7 +2224,7 @@
 
 .hotel_4 .hotelimg_1 {
     width: 100%;
-    height: 17vw;
+    height: 34vw;
 }
 
 .hotel_4 .hotelimg img {
@@ -2274,20 +2258,18 @@
 /* 호텔5 */
 #Hotel .hotel .hotel_5 {
     width: 100%;
-    height: 70vw;
+    height: 345vw;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 0.8s ease;
 }
 
 .hotel_5 .hotelimg {
-    width: 20vw;
-    height: 33vw;
+    width: 55vw;
+    height: 54vw;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -2297,7 +2279,7 @@
 
 .hotel_5 .hotelimg_1 {
     width: 100%;
-    height: 17vw;
+    height: 34vw;
 }
 
 .hotel_5 .hotelimg img {
@@ -2627,7 +2609,7 @@
 
 #Active .active h1 {
     font-size: 3rem;
-    height: 3vw;
+    height: 4vw;
     font-weight: bold;
     color: #434343;
     text-align: center;
@@ -3168,7 +3150,7 @@
 
 #Hotel .hotel h1 {
     font-size: 3rem;
-    height: 3vw;
+    height: 4vw;
     font-weight: bold;
     color: #434343;
     text-align: center;
@@ -3177,17 +3159,6 @@
 
 
 /* 호텔 이미지 + 설명 */
-
-/* 호텔 active 효과 */
-#Hotel .hotel .hotel_1.active1,
-#Hotel .hotel .hotel_2.active1,
-#Hotel .hotel .hotel_3.active1,
-#Hotel .hotel .hotel_4.active1,
-#Hotel .hotel .hotel_5.active1 {
-    opacity: 1;
-    transform: translateY(0%);
-}
-
 /* 호텔 1 */
 #Hotel .hotel .hotel_1 {
     width: 100%;
@@ -3198,8 +3169,6 @@
     align-items: center;
     flex-wrap: wrap;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 1.7s ease;
 }
 
 
@@ -3237,7 +3206,7 @@
     line-height: 1.7;
     background-color: white;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 5px;
 }
 
 .hotel_1 .hotelintro p {
@@ -3256,8 +3225,6 @@
     align-items: center;
     flex-wrap: wrap;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 0.8s ease;
 }
 
 .hotel_2 .hotelimg {
@@ -3294,7 +3261,7 @@
     line-height: 1.7;
     background-color: white;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 5px;
 }
 
 .hotel_2 .hotelintro p {
@@ -3313,8 +3280,6 @@
     align-items: center;
     flex-wrap: wrap;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 0.8s ease;
 }
 
 .hotel_3 .hotelimg {
@@ -3351,7 +3316,7 @@
     line-height: 1.7;
     background-color: white;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 5px;
 }
 
 .hotel_3 .hotelintro p {
@@ -3370,8 +3335,6 @@
     align-items: center;
     flex-wrap: wrap;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 0.8s ease;
 }
 
 .hotel_4 .hotelimg {
@@ -3408,7 +3371,7 @@
     line-height: 1.7;
     background-color: white;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 5px;
 }
 
 .hotel_4 .hotelintro p {
@@ -3427,8 +3390,6 @@
     align-items: center;
     flex-wrap: wrap;
     opacity: 0;
-    transform: translateY(20%);
-    transition: all 0.8s ease;
 }
 
 .hotel_5 .hotelimg {
@@ -3465,7 +3426,7 @@
     line-height: 1.7;
     background-color: white;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 5px;
 }
 
 .hotel_5 .hotelintro p {

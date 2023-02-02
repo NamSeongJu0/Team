@@ -22,7 +22,7 @@ $(function () {
 
     }
 
-    setInterval(next, 3000);
+    // setInterval(next, 3000);
 
 
     //버튼 슬라이드
