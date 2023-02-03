@@ -237,19 +237,19 @@
 /* 이미지 전환 슬라이더 */
 #slidewrap {
     width: 87%;
-    height: 500px;
+    /* height: 500px; */
     margin: 50px auto;
     position: relative;
     overflow: hidden;
 }
 
 #slidewrap .slide {
-    width: 3300px;
+    width: 700%;
 }
 
 #slidewrap .slide li {
-    width: 1100px;
-    height: 500px;
+    width: 14.28%;
+    /* height: 500px; */
     float: left;
 }
 
