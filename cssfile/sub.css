@@ -34,6 +34,10 @@
     border-right: 1px dashed lightgray;
 }
 
+#section .container #contents_M .section_L div:nth-of-type(2) {
+    position: fixed;
+}
+
 #section .container #contents_M .section_L h1 {
     position: absolute;
     top: 7px;
@@ -96,7 +100,6 @@
     box-sizing: border-box;
     padding: 14px;
     font-size: 1rem;
-    text-align: left;
     margin-bottom: 20px;
 }
 
@@ -1226,6 +1229,10 @@
     box-sizing: border-box;
     padding: 5px;
     margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 #section .container #contents_M .section_L h4 span {
@@ -1271,8 +1278,9 @@
     box-sizing: border-box;
     padding: 1px;
     font-size: 1rem;
-    text-align: left;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .section_L .intro span {
