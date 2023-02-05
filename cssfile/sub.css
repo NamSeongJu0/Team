@@ -9,14 +9,12 @@
 #section .container {
     width: 90%;
     height: auto;
-    background-color: cornflowerblue;
     margin: 0 auto;
 }
 
 #section .container #contents_M {
     width: 100%;
     height: auto;
-    background-color: darksalmon;
     position: relative; 
     display: flex;
 }
@@ -2417,7 +2415,6 @@
     box-sizing: border-box;
     padding: 5px;
     font-size: 1rem;
-    text-align: left;
     margin-bottom: 20px;
 }
 
@@ -3443,10 +3440,4 @@
     font-size: 1rem;
     color: darkgray;
 }
-}
-
-
-/* 1200 이상 */
-@media (min-width: 1200px) {
-
 }
