@@ -1178,13 +1178,13 @@
 }
 
 #section .container #contents_M .section_L h4 span {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: darkgray;
 }
 
 #section .container #contents_M .section_L h3 {
     color: coral;
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 
@@ -1202,7 +1202,7 @@
 }
 
 .section_L .intro span {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: darkgray;
 }
 
@@ -1224,7 +1224,7 @@
     align-items: center;
     box-sizing: border-box;
     padding: 1px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 #section .section_L .slide1 ul li {
