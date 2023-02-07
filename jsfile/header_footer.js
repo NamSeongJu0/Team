@@ -63,7 +63,6 @@ $(function () {
 //  마우스 포인터 효과
 const cursor = document.querySelector(".cursor_sj");
 const contentEm = document.querySelectorAll("header");
-// const infoLi = document.querySelectorAll(".info.bottom li");
 
 // 움직임 효과
 $(function () {

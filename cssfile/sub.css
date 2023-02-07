@@ -198,35 +198,6 @@
 }
 
 
-/* 왼쪽 request 부분 */
-#section .section_L .request {
-    width: 20vw;
-    height: 8vw;
-    margin: 20px auto;
-    background-color: #ddd;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    padding: 15px;
-    font-size: 1rem;
-    border-radius: 10px;
-}
-
-#section .section_L .request .request_1 a {
-    color: #434343;
-}
-
-#section .section_L .request .request_2 a {
-    color: #434343;
-}
-
-#section .section_L i {
-    padding-right: 5px;
-}
-
-
 /* 섹션 오른쪽 */
 #section .container #contents_M .section_R {
     width: 75%;
@@ -2373,12 +2344,13 @@
 }
 
 #section .container #contents_M .section_L h4 span {
+    font-size: 1.5rem;
     color: darkgray;
 }
 
 #section .container #contents_M .section_L h3 {
     color: coral;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 
@@ -2419,6 +2391,7 @@
 }
 
 .section_L .intro span {
+    font-size: 1rem;
     color: darkgray;
 }
 
@@ -2453,6 +2426,7 @@
 }
 
 #section .section_L .slide1 ul li a {
+    font-size: 1rem;
     color: #434343;
 }
 
@@ -2465,41 +2439,6 @@
     background-color: coral;
     transition: all 0.8s ease;
     cursor: pointer;
-}
-
-
-/* 왼쪽 request 부분 */
-#section .section_L .request {
-    width: 18vw;
-    height: 10vw;
-    text-align: left;
-    margin: 20px auto;
-    background-color: #ddd;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    padding: 5px;
-    font-size: 1rem;
-    border-radius: 10px;
-}
-
-#section .section_L .request_1,
-#section .section_L .request_2 {
-    width: 90%;
-} 
-
-#section .section_L .request .request_1 a {
-    color: #434343;
-}
-
-#section .section_L .request .request_2 a {
-    color: #434343;
-}
-
-#section .section_L i {
-    padding-right: 5px;
 }
 
 
@@ -2523,11 +2462,11 @@
 }
 
 #slidewrap .slide {
-    width: 3300px;
+    width: 700%;
 }
 
 #slidewrap .slide li {
-    width: 1100px;
+    width: 14.28%;
     height: 300px;
     float: left;
 }
