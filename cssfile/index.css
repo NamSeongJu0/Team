@@ -186,36 +186,28 @@
 
 /* 이미지 전환 슬라이더 */
 #slidewrap {
-    width: 87%;
-    /* height: 500px; */
-    margin: 0 auto;
+    width: 1600px;
+    height: 1000px;
+    margin: 0 auto 60px auto;
     position: relative;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 #slidewrap .slide {
-    width: 700%;
+    width: 9600px;
 }
 
 #slidewrap .slide li {
-    width: 14.28%;
-    /* height: 500px; */
+    width: 1600px;
+    height: 1000px;
     float: left;
 }
 
 #slidewrap .slide li img {
     width: 100%;
     height: 100%;
-}
-
-#slidewrap a {
-    width: 15vw;
-    height: 3vw;
-    line-height: 3vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    object-fit: cover;
 }
 
 #slidewrap span {
@@ -452,6 +444,7 @@
 #Camping .camping .campingimg img {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 #Camping .camping .campingintro {
@@ -497,6 +490,7 @@
 #Bird .bird .birdimg img {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 #Bird .bird .birdintro {
@@ -547,6 +541,7 @@
 #Waterfall .waterfall .waterfallimg img {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 #Waterfall .waterfall .waterfallintro {
@@ -592,6 +587,7 @@
 #Nature .nature .natureimg img {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 #Nature .nature .natureintro {
@@ -637,6 +633,7 @@
 #Kayaking .kayaking .kayakingimg img {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 #Kayaking .kayaking .kayakingintro {
@@ -682,6 +679,7 @@
 #Sailing .sailing .sailingimg img {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 #Sailing .sailing .sailingintro {
@@ -727,6 +725,7 @@
 #Aerial .aerial .aerialimg img {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 #Aerial .aerial .aerialintro {
@@ -772,6 +771,7 @@
 #Gallery .gallery .galleryimg img {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 #Gallery .gallery .galleryintro {
@@ -1254,53 +1254,9 @@
 
 
     /* 이미지 전환 슬라이더 */
-    #slidewrap {
-        width: 87%;
-        height: 200px;
-        margin: 0 auto;
-        position: relative;
-        overflow: hidden;
-    }
-
-    #slidewrap .slide {
-        width: 700%;
-    }
-
     #slidewrap .slide li {
-        width: 14.28%;
-        height: 200px;
-        float: left;
-    }
-
-    #slidewrap .slide li img {
         width: 100%;
-        height: 100%;
-    }
-
-    #slidewrap a {
-        width: 15vw;
-        height: 3vw;
-        line-height: 3vw;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    #slidewrap a p {
-        width: 15vw;
-        height: 3vw;
-        line-height: 3vw;
-        font-size: 1.5rem;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-        background-color: darkgray;
-        opacity: 0.8;
-        border-radius: 10px;
+        height: auto;
     }
 
     #slidewrap a p:hover {
@@ -1544,6 +1500,7 @@
     #Camping .camping .campingimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Camping .camping .campingintro {
@@ -1590,6 +1547,7 @@
     #Bird .bird .birdimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Bird .bird .birdintro {
@@ -1641,6 +1599,7 @@
     #Waterfall .waterfall .waterfallimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Waterfall .waterfall .waterfallintro {
@@ -1687,6 +1646,7 @@
     #Nature .nature .natureimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Nature .nature .natureintro {
@@ -1733,6 +1693,7 @@
     #Kayaking .kayaking .kayakingimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Kayaking .kayaking .kayakingintro {
@@ -1779,6 +1740,7 @@
     #Sailing .sailing .sailingimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Sailing .sailing .sailingintro {
@@ -1825,6 +1787,7 @@
     #Aerial .aerial .aerialimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Aerial .aerial .aerialintro {
@@ -1871,6 +1834,7 @@
     #Gallery .gallery .galleryimg img {
         width: 100%;
         height: 100%;
+        
     }
 
     #Gallery .gallery .galleryintro {
@@ -2340,53 +2304,9 @@
 
 
     /* 이미지 전환 슬라이더 */
-    #slidewrap {
-        width: 87%;
-        height: 300px;
-        margin: 0 auto;
-        position: relative;
-        overflow: hidden;
-    }
-
-    #slidewrap .slide {
-        width: 700%;
-    }
-
     #slidewrap .slide li {
-        width: 14.28%;
-        height: 300px;
-        float: left;
-    }
-
-    #slidewrap .slide li img {
-        width: 100%;
-        height: 100%;
-    }
-
-    #slidewrap a {
-        width: 13vw;
-        height: 3vw;
-        line-height: 3vw;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    #slidewrap a p {
-        width: 13vw;
-        height: 3vw;
-        line-height: 3vw;
-        font-size: 1rem;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-        background-color: darkgray;
-        opacity: 0.8;
-        border-radius: 10px;
+        width: 75%;
+        height: auto;
     }
 
     #slidewrap a p:hover {
@@ -2396,17 +2316,7 @@
     }
 
     #slidewrap span {
-        width: 20px;
-        position: absolute;
-        top: 50%;
-        display: block;
-        font-size: 38px;
-        color: #fff;
-        background: rgba(0, 0, 0, 0.6);
-        cursor: pointer;
-        height: 50px;
-        transform: translateY(-50%);
-        text-align: center;
+        font-size: 32px;
     }
 
     #slidewrap span:hover {
@@ -2629,6 +2539,7 @@
     #Camping .camping .campingimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Camping .camping .campingintro {
@@ -2674,6 +2585,7 @@
     #Bird .bird .birdimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Bird .bird .birdintro {
@@ -2724,6 +2636,7 @@
     #Waterfall .waterfall .waterfallimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Waterfall .waterfall .waterfallintro {
@@ -2769,6 +2682,7 @@
     #Nature .nature .natureimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Nature .nature .natureintro {
@@ -2814,6 +2728,7 @@
     #Kayaking .kayaking .kayakingimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Kayaking .kayaking .kayakingintro {
@@ -2859,6 +2774,7 @@
     #Sailing .sailing .sailingimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Sailing .sailing .sailingintro {
@@ -2904,6 +2820,7 @@
     #Aerial .aerial .aerialimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Aerial .aerial .aerialintro {
@@ -2949,6 +2866,7 @@
     #Gallery .gallery .galleryimg img {
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
 
     #Gallery .gallery .galleryintro {
