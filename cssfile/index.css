@@ -37,17 +37,6 @@
     top: 6vw;
 }
 
-#section .container #contents_M .section_L h1 {
-    position: absolute;
-    top: 7px;
-    right: -76px;
-    z-index: 1;
-    width: 120px;
-    height: 150px;
-    /* background: url(../subimg/360sky.png) no-repeat 0px 5px; */
-    display: block;
-}
-
 #section .container #contents_M .section_L h4 {
     width: 15vw;
     height: auto;
@@ -1145,17 +1134,6 @@
         top: 8vw;
     }
 
-    #section .container #contents_M .section_L h1 {
-        position: absolute;
-        top: 7px;
-        right: -76px;
-        z-index: 1;
-        width: 120px;
-        height: 150px;
-        /* background: url(../subimg/360sky.png) no-repeat 0px 5px; */
-        display: block;
-    }
-
     #section .container #contents_M .section_L h4 {
         width: 15vw;
         height: auto;
@@ -1254,6 +1232,10 @@
 
 
     /* 이미지 전환 슬라이더 */
+    #slidewrap {
+        width: 100%;
+    }
+
     #slidewrap .slide li {
         width: 100%;
         height: auto;
@@ -2200,17 +2182,6 @@
         top: 8vw;
     }
 
-    #section .container #contents_M .section_L h1 {
-        position: absolute;
-        top: 7px;
-        right: -76px;
-        z-index: 1;
-        width: 120px;
-        height: 150px;
-        /* background: url(../subimg/360sky.png) no-repeat 0px 5px; */
-        display: block;
-    }
-
     #section .container #contents_M .section_L h4 {
         width: 15vw;
         height: auto;
@@ -2304,6 +2275,10 @@
 
 
     /* 이미지 전환 슬라이더 */
+    #slidewrap {
+        width: 75%;
+    }
+
     #slidewrap .slide li {
         width: 75%;
         height: auto;

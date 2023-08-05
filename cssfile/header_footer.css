@@ -182,7 +182,6 @@ header .logo_1_sj img {
 .nav_sj .navL_sj .navL_M_sj li {
     box-sizing: border-box;
     font-size: 1.5rem;
-    border-bottom: 1px solid #fff;
 }
 
 .nav_sj .navL_sj .navL_M_sj li a {
@@ -198,108 +197,7 @@ header .logo_1_sj img {
 }
 
 
-/* product before */
-.nav_sj .navL_sj .navL_M_sj>li>a::before {
-    opacity: 0.3;
-}
 
-.nav_sj .navL_sj .navL_M_sj>li:first-child>a::before {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-}
-
-
-/* activities before */
-.nav_sj .navL_sj .navL_M_sj>li:nth-of-type(2)>a::before {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-}
-
-
-/* picup before */
-.nav_sj .navL_sj .navL_M_sj>li:last-child>a::before {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-}
-
-
-/* product after */
-.nav_sj .navL_sj .navL_M_sj>li>a::after {
-    left: auto;
-    width: 0;
-    right: 0;
-}
-
-.nav_sj .navL_sj .navL_M_sj>li:first-child>a::after {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-}
-
-.nav_sj .navL .navL_M_sj>li:first-child>a::after:hover {
-    animation: graph 1.5s ease-in-out;
-}
-
-@keyframes graph {
-    0% {
-        width: 0;
-    }
-
-    100% {
-        width: 100%;
-    }
-}
-
-
-/* activites after */
-.nav_sj .navL_sj .navL_M_sj>li:nth-of-type(2)>a::after {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-    opacity: 0;
-}
-
-
-/* picup after */
-.nav_sj .navL_sj .navL_M_sj>li:last-child>a::after {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-    opacity: 0;
-}
 
 .nav_sj .navL_sj .navL_M_sj li:first-child i {
     padding-left: 7px;
@@ -826,7 +724,6 @@ header .logo_1_sj a {
     box-sizing: border-box;
     background-color: #333;
     font-size: 1.5rem;
-    border-bottom: 1px solid #fff;
 }
 
 .nav_sj .navL_sj .navL_M_sj>li:first-child,
@@ -838,108 +735,6 @@ header .logo_1_sj a {
 }
 
 
-/* product before */
-.nav_sj .navL_sj .navL_M_sj>li>a::before {
-    opacity: 0.3;
-}
-
-.nav_sj .navL_sj .navL_M_sj>li:first-child>a::before {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-}
-
-
-/* activities before */
-.nav_sj .navL_sj .navL_M_sj>li:nth-of-type(2)>a::before {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-}
-
-
-/* picup before */
-.nav_sj .navL_sj .navL_M_sj>li:last-child>a::before {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-}
-
-
-/* product after */
-.nav_sj .navL_sj .navL_M_sj>li>a::after {
-    left: auto;
-    width: 0;
-    right: 0;
-}
-
-.nav_sj .navL_sj .navL_M_sj>li:first-child>a::after {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-}
-
-.nav_sj .navL_sj .navL_M_sj>li:first-child>a::after:hover {
-    animation: graph 1.5s ease-in-out;
-}
-
-@keyframes graph {
-    0% {
-        width: 0;
-    }
-
-    100% {
-        width: 100%;
-    }
-}
-
-
-/* activites after */
-.nav_sj .navL_sj .navL_M_sj>li:nth-of-type(2)>a::after {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-    opacity: 0;
-}
-
-
-/* picup after */
-.nav _sj.navL_sj .navL_M_sj>li:last-child>a::after {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-    opacity: 0;
-}
 
 .nav_sj .navL_sj .navL_M_sj li:first-child i,
 .nav_sj .navL_sj .navL_M_sj li:nth-of-type(2) i {
@@ -1560,108 +1355,7 @@ header .logo_1_sj a {
 }
 
 
-/* product before */
-.nav_sj .navL_sj .navL_M_sj>li>a::before {
-    opacity: 0.3;
-}
 
-.nav_sj .navL_sj .navL_M_sj>li:first-child>a::before {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-}
-
-
-/* activities before */
-.nav_sj .navL_sj .navL_M_sj>li:nth-of-type(2)>a::before {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-}
-
-
-/* picup before */
-.nav_sj .navL_sj .navL_M_sj>li:last-child>a::before {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-}
-
-
-/* product after */
-.nav_sj .navL .navL_M_sj>li>a::after {
-    left: auto;
-    width: 0;
-    right: 0;
-}
-
-.nav_sj .navL_sj .navL_M_sj>li:first-child>a::after {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-}
-
-.nav_sj .navL_sj .navL_M_sj>li:first-child>a::after:hover {
-    animation: graph 1.5s ease-in-out;
-}
-
-@keyframes graph {
-    0% {
-        width: 0;
-    }
-
-    100% {
-        width: 100%;
-    }
-}
-
-
-/* activites after */
-.nav_sj .navL_sj .navL_M_sj>li:nth-of-type(2)>a::after {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-    opacity: 0;
-}
-
-
-/* picup after */
-.nav_sj .navL_sj .navL_M_sj>li:last-child>a::after {
-    content: "";
-    position: absolute;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #fff;
-    opacity: 0;
-}
 
 .nav_sj .navL_sj .navL_M_sj li:first-child i,
 .nav_sj .navL_sj .navL_M_sj li:nth-of-type(2) i {
