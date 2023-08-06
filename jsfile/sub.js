@@ -16,30 +16,26 @@ $(function() {
     var slideCount = slideItems.length;
     var currentIndex = 0;
     var slideWidth = 1600;
-    var slideAspectRatio = 16 / 9; // 가로:세로 비율 (16:9)
   
     function resizeSlide() {
       var windowWidth = $(window).width();
 
     // 767px 이하에 대한 슬라이드 크기 조정
       if (windowWidth <= 767) {
-        slideWidth = Math.min(windowWidth, 1600) * 0.3;
-        slideAspectRatio = 4 / 3;
+        slideWidth = Math.min(windowWidth, 1600) * 0.63;
   }
     // 768px 이상 1199px 이하에 대한 슬라이드 크기 조정
       else if (windowWidth <= 1199) {
-        slideWidth = Math.min(windowWidth, 1600) * 0.48;
-        slideAspectRatio = 4 / 3;
+        slideWidth = Math.min(windowWidth, 1600) * 0.63;
   }
   
   // 1200px 이상에 대한 슬라이드 크기 조정
       else {   
-      slideAspectRatio = 16 / 9;
+        slideWidth = windowWidth * 0.63;
   }
-      
-      // 슬라이드 너비와 높이 조정
-      slideWidth = Math.min(windowWidth, 1600); // 최대 너비를 1600으로 제한
-      var slideHeight = slideWidth / slideAspectRatio; // 가로 너비에 따라 세로 높이 계산
+
+  var slideHeight = slideWidth * 3 / 4;
+
       $('#slidewrap').css({
         width: slideWidth,
         height: slideHeight

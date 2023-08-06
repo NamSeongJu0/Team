@@ -1305,7 +1305,7 @@
 
     #Active .active .image {
         width: 100%;
-        height: 415vw;
+        height: 340vw;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -1316,7 +1316,7 @@
 
     #Active .active .image .img1 {
         width: 53vw;
-        height: 48vw;
+        height: 35vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../subimg/camping.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -1331,7 +1331,7 @@
 
     #Active .active .image .img2 {
         width: 53vw;
-        height: 48vw;
+        height: 35vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../subimg/bird.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -1347,7 +1347,7 @@
 
     #Active .active .image .img3 {
         width: 53vw;
-        height: 48vw;
+        height: 35vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../subimg/Palau_19_Waterfall_3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -1362,7 +1362,7 @@
 
     #Active .active .image .img4 {
         width: 53vw;
-        height: 48vw;
+        height: 35vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../subimg/IMG_1536.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -1377,7 +1377,7 @@
 
     #Active .active .image .img5 {
         width: 53vw;
-        height: 48vw;
+        height: 35vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../subimg/Kayak.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -1392,7 +1392,7 @@
 
     #Active .active .image .img6 {
         width: 53vw;
-        height: 48vw;
+        height: 35vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../subimg/Palau_19_Canoe_1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -1407,7 +1407,7 @@
 
     #Active .active .image .img7 {
         width: 53vw;
-        height: 48vw;
+        height: 35vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../subimg/Palau_19_PMA_14.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -1422,7 +1422,7 @@
 
     #Active .active .image .img8 {
         width: 53vw;
-        height: 48vw;
+        height: 35vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../subimg/Photo-29-05-2017-1-05-42-AM.jpg);
         background-size: cover;
         background-repeat: no-repeat;
